@@ -13,8 +13,19 @@
   ================================ -->
   <div id="screen-home" class="screen active">
     <div class="home-top">
-      <div class="home-logo">📚 WordSwipe</div>
+      <div class="home-logo">WordSwipe</div>
       <div class="home-sub">수능 영단어 스와이프 학습</div>
+    </div>
+    <div class="home-direction">
+      <div class="dir-item">
+        <div class="dir-icon dir-left">✕</div>
+        <div class="dir-text">모르면 왼쪽</div>
+      </div>
+      <div class="dir-divider"></div>
+      <div class="dir-item">
+        <div class="dir-icon dir-right">✓</div>
+        <div class="dir-text">알면 오른쪽</div>
+      </div>
     </div>
     <div class="home-sets" id="home-sets"></div>
   </div>
@@ -40,32 +51,49 @@
       <div class="prog-fill" id="prog-fill"></div>
     </div>
 
+    <!-- 방향 힌트 -->
+    <div class="swipe-hints">
+      <div class="hint-left">← 몰라요</div>
+      <div class="hint-right">알아요 →</div>
+    </div>
+
     <!-- 카드 영역 -->
     <div class="cards-area" id="cards-area"></div>
 
-    <!-- LIKE / NOPE / STAR 도장 -->
-    <div class="stamp s-like"  id="s-like">KNOW</div>
-    <div class="stamp s-nope"  id="s-nope">NOPE</div>
-    <div class="stamp s-star"  id="s-star">STAR</div>
+    <!-- 도장 -->
+    <div class="stamp s-know" id="s-know">KNOW ✓</div>
+    <div class="stamp s-nope" id="s-nope">✕ NOPE</div>
+    <div class="stamp s-star" id="s-star">★ STAR</div>
 
     <!-- 하단 버튼 -->
     <div class="bot-btns">
-      <button class="cir-btn cir-nope"  id="btn-nope">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#ff4458" stroke-width="2.5">
-          <line x1="18" y1="6" x2="6" y2="18"/>
-          <line x1="6"  y1="6" x2="18" y2="18"/>
-        </svg>
-      </button>
-      <button class="cir-btn cir-star"  id="btn-star">
-        <svg viewBox="0 0 24 24" fill="#00d4ff" stroke="none">
-          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-        </svg>
-      </button>
-      <button class="cir-btn cir-know"  id="btn-know">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5">
-          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-        </svg>
-      </button>
+      <div class="bot-btn-wrap">
+        <div class="bot-label nope-label">몰라요</div>
+        <button class="cir-btn cir-nope" id="btn-nope">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#ff4458" stroke-width="2.8">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6"  y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="bot-btn-wrap">
+        <div class="bot-label star-label">즐겨찾기</div>
+        <button class="cir-btn cir-star" id="btn-star">
+          <svg viewBox="0 0 24 24" fill="#00d4ff" stroke="none">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="bot-btn-wrap">
+        <div class="bot-label know-label">알아요</div>
+        <button class="cir-btn cir-know" id="btn-know">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.8">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </button>
+      </div>
     </div>
 
   </div>
@@ -80,22 +108,22 @@
       <div class="result-setname" id="result-setname"></div>
       <div class="result-cards">
         <div class="result-card rc-know">
-          <div class="rc-icon">✅</div>
+          <div class="rc-icon">✓</div>
           <div class="rc-num" id="rc-know">0</div>
           <div class="rc-label">알았어요</div>
         </div>
         <div class="result-card rc-nope">
-          <div class="rc-icon">🔄</div>
+          <div class="rc-icon">✕</div>
           <div class="rc-num" id="rc-nope">0</div>
-          <div class="rc-label">다시볼게요</div>
+          <div class="rc-label">몰랐어요</div>
         </div>
         <div class="result-card rc-star">
-          <div class="rc-icon">⭐</div>
+          <div class="rc-icon">★</div>
           <div class="rc-num" id="rc-star">0</div>
           <div class="rc-label">즐겨찾기</div>
         </div>
       </div>
-      <button class="res-btn res-retry" id="btn-retry">🔄 틀린 것만 다시</button>
+      <button class="res-btn res-retry" id="btn-retry">🔄 모르는 것만 다시</button>
       <button class="res-btn res-home"  id="btn-home">🏠 홈으로</button>
     </div>
   </div>
