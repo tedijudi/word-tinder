@@ -6,26 +6,186 @@
       "level": "Basic",
       "color": "#10b981",
       "words": [
-        { "w": "allow", "m": "허락하다", "pos": "verb", "m_rich": "<b>얼라 우<small>는</small></b> 소리에, 엄마가 장난감 사는 걸 <b>허락하다</b>.", "ex": "My parents don't _____ me to stay out late.", "t": "부모님은 내가 늦게까지 밖에 있는 것을 허락하지 않으신다." },
-        { "w": "effort", "m": "노력", "pos": "noun", "m_rich": "<small>에고,</small> <b>리포트(에포트)</b> 하나 쓰는데 이렇게 큰 <b>노력</b>이 필요하다니!", "ex": "Success requires time and _____.", "t": "성공은 시간과 노력을 요구한다." },
-        { "w": "provide", "m": "제공하다", "pos": "verb", "m_rich": "<b>프로 바이드(보이드)</b>시, 팬들에게 최고의 서비스를 <b>제공하다</b>.", "ex": "The hotel _____s free breakfast.", "t": "그 호텔은 무료 아침 식사를 제공한다." },
-        { "w": "explain", "m": "설명하다", "pos": "verb", "m_rich": "<b>익스! 플레인</b> 요거트의 장점을 열심히 <b>설명하다</b>.", "ex": "Can you _____ the rules of the game to me?", "t": "게임 규칙을 저에게 설명해 주실 수 있나요?" },
-        { "w": "purpose", "m": "목적", "pos": "noun", "m_rich": "진주(<b>펄</b>)를 얻기 위해 멋진 <b>포즈(퍼포즈)</b>를 취하는 것, 그것이 내 <b>목적</b>이다.", "ex": "The _____ of this meeting is to plan our project.", "t": "이 회의의 목적은 우리 프로젝트를 계획하는 것입니다." },
-        { "w": "result", "m": "결과", "pos": "noun", "m_rich": "시험 <b>결과</b>가 좋아서, 아빠가 <b>리조트</b>를 예약했다!", "ex": "The _____ of the experiment was surprising.", "t": "실험 결과는 놀라웠다." },
-        { "w": "protect", "m": "보호하다", "pos": "verb", "m_rich": "<b>프로</b>는 <b>텍(태클)</b>으로부터 자기 몸을 <b>보호해야</b> 한다.", "ex": "You should wear a helmet to _____ your head.", "t": "머리를 보호하기 위해 헬멧을 써야 한다." },
-        { "w": "improve", "m": "향상시키다", "pos": "verb", "m_rich": "<b>임, 풀(프루)어봐.</b> 이 수학 문제를 풀면 실력이 <b>향상될</b> 거야.", "ex": "I want to _____ my English skills.", "t": "저는 제 영어 실력을 향상시키고 싶어요." },
-        { "w": "require", "m": "요구하다", "pos": "verb", "m_rich": "보물 상자를 열려면 <b>열쇠 콰이어(리콰이어)</b>가 필요하다고 <b>요구</b>한다.", "ex": "This job _____s computer skills.", "t": "이 직업은 컴퓨터 기술을 요구한다." },
-        { "w": "opinion", "m": "의견", "pos": "noun", "m_rich": "<b>오! 피니언(피는구나).</b> 저 꽃을 보니 갑자기 좋은 <b>의견</b>이 떠올랐어.", "ex": "What's your _____ on this matter?", "t": "이 문제에 대한 당신의 의견은 무엇인가요?" },
-        { "w": "entire", "m": "전체의", "pos": "adjective", "m_rich": "<b>이 타이어(인타이어)</b>는 자동차 <b>전체의</b> 무게를 지탱한다.", "ex": "I read the _____ book in one day.", "t": "나는 그 책 전체를 하루 만에 읽었다." },
-        { "w": "prepare", "m": "준비하다", "pos": "verb", "m_rich": "시험 전에 <b>풀이 페이퍼(프리페어)</b>를 보며 <b>준비하다</b>.", "ex": "She is _____ing for her final exams.", "t": "그녀는 기말고사를 준비하고 있다." },
-        { "w": "damage", "m": "손상", "pos": "noun", "m_rich": "상대에게 입힌 <b>대미지</b>가 건물의 <b>손상</b>으로 이어졌다.", "ex": "The storm caused a lot of _____ to the house.", "t": "폭풍이 집에 많은 손상을 입혔다." },
-        { "w": "discover", "m": "발견하다", "pos": "verb", "m_rich": "<b>디스(이) 커버</b>를 열자, 새로운 대륙을 <b>발견했다</b>!", "ex": "Columbus _____ed America in 1492.", "t": "콜럼버스는 1492년에 아메리카를 발견했다." },
-        { "w": "suggest", "m": "제안하다", "pos": "verb", "m_rich": "<b>서, 제스처</b>를 써가며 회의에서 아이디어를 <b>제안하다</b>.", "ex": "I _____ we go to the movies tonight.", "t": "오늘 밤 영화 보러 가는 것을 제안합니다." },
-        { "w": "tradition", "m": "전통", "pos": "noun", "m_rich": "<b>트림하며 디저트 션(시원)하게</b> 먹는 게 우리 집 <b>전통</b>이야.", "ex": "It is a _____ to eat special food on New Year's Day.", "t": "설날에 특별한 음식을 먹는 것은 전통이다." },
-        { "w": "industry", "m": "산업", "pos": "noun", "m_rich": "<b>인 더 스트리트</b>에 공장 굴뚝이 많은 걸 보니, 이 도시는 <b>산업</b>이 발달했구나.", "ex": "The tourism _____ is very important for this city.", "t": "관광 산업은 이 도시에 매우 중요하다." },
-        { "w": "continue", "m": "계속하다", "pos": "verb", "m_rich": "<b>큰 티<small>를</small> 뉴(new)</b> 버전으로 <b>계속해서</b> 출시하다.", "ex": "Please _____ with your story.", "t": "이야기를 계속해 주세요." },
-        { "w": "consider", "m": "고려하다", "pos": "verb", "m_rich": "<b>큰 시더(씨앗)</b>를 어디에 심을지 신중히 <b>고려하다</b>.", "ex": "We need to _____ all the options.", "t": "우리는 모든 선택지를 고려해야 한다." },
-        { "w": "achieve", "m": "성취하다", "pos": "verb", "m_rich": "<b>아, 치즈!</b> 드디어 산 정상에서 치즈를 먹는 목표를 <b>성취했다</b>!", "ex": "She _____d her dream of becoming a doctor.", "t": "그녀는 의사가 되는 꿈을 성취했다." }
+        {
+          "w": "allow",
+          "m": "허락하다",
+          "pos": "verb",
+          "m_rich": "<b>얼라 우<small>는</small></b> 소리에, 엄마가 장난감 사는 걸 <b>허락하다</b>.",
+          "ex": "My parents don't _____ me to stay out late.",
+          "t": "부모님은 내가 늦게까지 밖에 있는 것을 허락하지 않으신다.",
+          "pron": { "en": ["ə","láu"], "kr": ["얼","라우"] }
+        },
+        {
+          "w": "effort",
+          "m": "노력",
+          "pos": "noun",
+          "m_rich": "<small>에고,</small> <b>리포트(에포트)</b> 하나 쓰는데 이렇게 큰 <b>노력</b>이 필요하다니!",
+          "ex": "Success requires time and _____.",
+          "t": "성공은 시간과 노력을 요구한다.",
+          "pron": { "en": ["éf","ərt"], "kr": ["에","퍼트"] }
+        },
+        {
+          "w": "provide",
+          "m": "제공하다",
+          "pos": "verb",
+          "m_rich": "<b>프로 바이드(보이드)</b>시, 팬들에게 최고의 서비스를 <b>제공하다</b>.",
+          "ex": "The hotel _____s free breakfast.",
+          "t": "그 호텔은 무료 아침 식사를 제공한다.",
+          "pron": { "en": ["prə","váid"], "kr": ["프러","바이드"] }
+        },
+        {
+          "w": "explain",
+          "m": "설명하다",
+          "pos": "verb",
+          "m_rich": "<b>익스! 플레인</b> 요거트의 장점을 열심히 <b>설명하다</b>.",
+          "ex": "Can you _____ the rules of the game?",
+          "t": "게임 규칙을 설명해 주실 수 있나요?",
+          "pron": { "en": ["ik","spléin"], "kr": ["익","스플레인"] }
+        },
+        {
+          "w": "purpose",
+          "m": "목적",
+          "pos": "noun",
+          "m_rich": "진주(<b>펄</b>)를 얻기 위해 멋진 <b>포즈(퍼포즈)</b>를 취하는 것, 그것이 내 <b>목적</b>이다.",
+          "ex": "The _____ of this meeting is to plan our project.",
+          "t": "이 회의의 목적은 우리 프로젝트를 계획하는 것입니다.",
+          "pron": { "en": ["pə́r","pəs"], "kr": ["퍼","퍼스"] }
+        },
+        {
+          "w": "result",
+          "m": "결과",
+          "pos": "noun",
+          "m_rich": "시험 <b>결과</b>가 좋아서, 아빠가 <b>리조트</b>를 예약했다!",
+          "ex": "The _____ of the experiment was surprising.",
+          "t": "실험 결과는 놀라웠다.",
+          "pron": { "en": ["ri","zált"], "kr": ["리","절트"] }
+        },
+        {
+          "w": "protect",
+          "m": "보호하다",
+          "pos": "verb",
+          "m_rich": "<b>프로</b>는 <b>텍(태클)</b>으로부터 자기 몸을 <b>보호해야</b> 한다.",
+          "ex": "You should wear a helmet to _____ your head.",
+          "t": "머리를 보호하기 위해 헬멧을 써야 한다.",
+          "pron": { "en": ["prə","tékt"], "kr": ["프러","텍트"] }
+        },
+        {
+          "w": "improve",
+          "m": "향상시키다",
+          "pos": "verb",
+          "m_rich": "<b>임, 풀(프루)어봐.</b> 이 수학 문제를 풀면 실력이 <b>향상될</b> 거야.",
+          "ex": "I want to _____ my English skills.",
+          "t": "저는 제 영어 실력을 향상시키고 싶어요.",
+          "pron": { "en": ["im","prúːv"], "kr": ["임","프루브"] }
+        },
+        {
+          "w": "require",
+          "m": "요구하다",
+          "pos": "verb",
+          "m_rich": "보물 상자를 열려면 <b>열쇠 콰이어(리콰이어)</b>가 필요하다고 <b>요구</b>한다.",
+          "ex": "This job _____s computer skills.",
+          "t": "이 직업은 컴퓨터 기술을 요구한다.",
+          "pron": { "en": ["ri","kwáiər"], "kr": ["리","콰이어"] }
+        },
+        {
+          "w": "opinion",
+          "m": "의견",
+          "pos": "noun",
+          "m_rich": "<b>오! 피니언(피는구나).</b> 저 꽃을 보니 갑자기 좋은 <b>의견</b>이 떠올랐어.",
+          "ex": "What's your _____ on this matter?",
+          "t": "이 문제에 대한 당신의 의견은 무엇인가요?",
+          "pron": { "en": ["ə","pín","jən"], "kr": ["어","핀","연"] }
+        },
+        {
+          "w": "entire",
+          "m": "전체의",
+          "pos": "adjective",
+          "m_rich": "<b>이 타이어(인타이어)</b>는 자동차 <b>전체의</b> 무게를 지탱한다.",
+          "ex": "I read the _____ book in one day.",
+          "t": "나는 그 책 전체를 하루 만에 읽었다.",
+          "pron": { "en": ["in","táiər"], "kr": ["인","타이어"] }
+        },
+        {
+          "w": "prepare",
+          "m": "준비하다",
+          "pos": "verb",
+          "m_rich": "시험 전에 <b>풀이 페이퍼(프리페어)</b>를 보며 <b>준비하다</b>.",
+          "ex": "She is _____ing for her final exams.",
+          "t": "그녀는 기말고사를 준비하고 있다.",
+          "pron": { "en": ["pri","péər"], "kr": ["프리","페어"] }
+        },
+        {
+          "w": "damage",
+          "m": "손상",
+          "pos": "noun",
+          "m_rich": "상대에게 입힌 <b>대미지</b>가 건물의 <b>손상</b>으로 이어졌다.",
+          "ex": "The storm caused a lot of _____ to the house.",
+          "t": "폭풍이 집에 많은 손상을 입혔다.",
+          "pron": { "en": ["dǽm","idʒ"], "kr": ["대","미지"] }
+        },
+        {
+          "w": "discover",
+          "m": "발견하다",
+          "pos": "verb",
+          "m_rich": "<b>디스(이) 커버</b>를 열자, 새로운 대륙을 <b>발견했다</b>!",
+          "ex": "Columbus _____ed America in 1492.",
+          "t": "콜럼버스는 1492년에 아메리카를 발견했다.",
+          "pron": { "en": ["dis","káv","ər"], "kr": ["디스","커","버"] }
+        },
+        {
+          "w": "suggest",
+          "m": "제안하다",
+          "pos": "verb",
+          "m_rich": "<b>서, 제스처</b>를 써가며 회의에서 아이디어를 <b>제안하다</b>.",
+          "ex": "I _____ we go to the movies tonight.",
+          "t": "오늘 밤 영화 보러 가는 것을 제안합니다.",
+          "pron": { "en": ["səg","dʒést"], "kr": ["서그","제스트"] }
+        },
+        {
+          "w": "tradition",
+          "m": "전통",
+          "pos": "noun",
+          "m_rich": "<b>트림하며 디저트 션(시원)하게</b> 먹는 게 우리 집 <b>전통</b>이야.",
+          "ex": "It is a _____ to eat special food on New Year's Day.",
+          "t": "설날에 특별한 음식을 먹는 것은 전통이다.",
+          "pron": { "en": ["trə","díʃ","ən"], "kr": ["트러","디션","언"] }
+        },
+        {
+          "w": "industry",
+          "m": "산업",
+          "pos": "noun",
+          "m_rich": "<b>인 더 스트리트</b>에 공장 굴뚝이 많은 걸 보니, 이 도시는 <b>산업</b>이 발달했구나.",
+          "ex": "The tourism _____ is very important for this city.",
+          "t": "관광 산업은 이 도시에 매우 중요하다.",
+          "pron": { "en": ["ín","dəs","tri"], "kr": ["인","더스","트리"] }
+        },
+        {
+          "w": "continue",
+          "m": "계속하다",
+          "pos": "verb",
+          "m_rich": "<b>큰 티<small>를</small> 뉴(new)</b> 버전으로 <b>계속해서</b> 출시하다.",
+          "ex": "Please _____ with your story.",
+          "t": "이야기를 계속해 주세요.",
+          "pron": { "en": ["kən","tín","juː"], "kr": ["컨","티","뉴"] }
+        },
+        {
+          "w": "consider",
+          "m": "고려하다",
+          "pos": "verb",
+          "m_rich": "<b>큰 시더(씨앗)</b>를 어디에 심을지 신중히 <b>고려하다</b>.",
+          "ex": "We need to _____ all the options.",
+          "t": "우리는 모든 선택지를 고려해야 한다.",
+          "pron": { "en": ["kən","síd","ər"], "kr": ["컨","시","더"] }
+        },
+        {
+          "w": "achieve",
+          "m": "성취하다",
+          "pos": "verb",
+          "m_rich": "<b>아, 치즈!</b> 드디어 산 정상에서 치즈를 먹는 목표를 <b>성취했다</b>!",
+          "ex": "She _____d her dream of becoming a doctor.",
+          "t": "그녀는 의사가 되는 꿈을 성취했다.",
+          "pron": { "en": ["ə","tʃíːv"], "kr": ["어","치브"] }
+        }
       ]
     },
     {
@@ -34,26 +194,186 @@
       "level": "Basic",
       "color": "#10b981",
       "words": [
-        { "w": "recognize", "m": "알아보다", "pos": "verb", "m_rich": "<b>내 것 나이 쓰(recognize)</b>! 이건 내 글씨체인 걸 바로 <b>알아보겠네</b>.", "ex": "I didn't _____ you with your new haircut.", "t": "새 머리 스타일 때문에 당신을 알아보지 못했어요." },
-        { "w": "produce", "m": "생산하다", "pos": "verb", "m_rich": "<b>프로듀스</b> 101은 아이돌을 <b>생산하는</b> 프로그램이다.", "ex": "This factory _____s cars.", "t": "이 공장은 자동차를 생산한다." },
-        { "w": "solve", "m": "해결하다", "pos": "verb", "m_rich": "이 문제는 <b>솔(소나무)</b>잎으로 <b>브(문질러)</b>서 <b>해결했다</b>.", "ex": "We need to _____ this problem quickly.", "t": "우리는 이 문제를 빨리 해결해야 한다." },
-        { "w": "describe", "m": "묘사하다", "pos": "verb", "m_rich": "<b>디스크<small>를</small> 라이브</b>로 연주하는 느낌을 말로 <b>묘사하다</b>.", "ex": "Can you _____ the man you saw?", "t": "당신이 본 남자를 묘사할 수 있나요?" },
-        { "w": "local", "m": "지역의", "pos": "adjective", "m_rich": "<b>로(low)컬</b>러리? 이 <b>지역의</b> 음식은 칼로리가 낮아.", "ex": "I always buy vegetables from the _____ market.", "t": "나는 항상 지역 시장에서 채소를 산다." },
-        { "w": "method", "m": "방법", "pos": "noun", "m_rich": "그 문제를 푸는 <b>메<small>인</small> 소드(method)</b>는 바로 이 <b>방법</b>이다!", "ex": "We need to find a new _____ to increase sales.", "t": "우리는 매출을 늘릴 새로운 방법을 찾아야 한다." },
-        { "w": "attitude", "m": "태도", "pos": "noun", "m_rich": "<b>애티<small>가</small> 튜드(튀네)</b>! 쟤는 <b>태도</b>가 왜 저렇게 튀어?", "ex": "He has a positive _____ towards his work.", "t": "그는 자신의 일에 대해 긍정적인 태도를 가지고 있다." },
-        { "w": "research", "m": "연구", "pos": "noun", "m_rich": "<b>리(다시) 설치</b>해서 <b>연구</b>를 계속하자.", "ex": "She is doing _____ on cancer.", "t": "그녀는 암에 대한 연구를 하고 있다." },
-        { "w": "resource", "m": "자원", "pos": "noun", "m_rich": "<b>리(다시) 쏠 수</b> 있게 <b>자원</b>을 보급해라!", "ex": "The country is rich in natural _____s.", "t": "그 나라는 천연자원이 풍부하다." },
-        { "w": "major", "m": "주요한", "pos": "adjective", "m_rich": "<b>메이저</b>리그는 <b>주요한</b> 선수들만 갈 수 있어.", "ex": "What is your _____ in college?", "t": "대학에서 전공이 무엇인가요?" },
-        { "w": "invent", "m": "발명하다", "pos": "verb", "m_rich": "<b>이 벤 트<small>럭은</small></b> 내가 새로 <b>발명했다</b>.", "ex": "Thomas Edison _____ed the light bulb.", "t": "토머스 에디슨은 전구를 발명했다." },
-        { "w": "culture", "m": "문화", "pos": "noun", "m_rich": "<b>컬<small>러가</small> 처<small>럼</small></b> 다양하게 섞이는 것이 현대 <b>문화</b>다.", "ex": "I am interested in Korean _____.", "t": "저는 한국 문화에 관심이 있습니다." },
-        { "w": "specific", "m": "구체적인", "pos": "adjective", "m_rich": "<b>스페<small>셜</small> 시 픽(pick)</b>! 가장 <b>구체적인</b> 이유를 하나만 <b>골라봐</b>.", "ex": "Could you be more _____?", "t": "좀 더 구체적으로 말해줄 수 있나요?" },
-        { "w": "remind", "m": "상기시키다", "pos": "verb", "m_rich": "<b>네 마인드</b>에 중요한 약속을 다시 <b>상기시켜라</b>.", "ex": "Please _____ me to call him tomorrow.", "t": "내일 그에게 전화하라고 다시 알려주세요." },
-        { "w": "judge", "m": "판단하다", "pos": "verb", "m_rich": "<b>저지(jersey)</b>만 보고 선수를 <b>판단하지</b> 마라.", "ex": "Don't _____ a book by its cover.", "t": "겉모습만 보고 판단하지 마라." },
-        { "w": "moral", "m": "도덕적인", "pos": "adjective", "m_rich": "<b>모를</b> 땐 <b>도덕적인</b> 선택을 하는 것이 옳다.", "ex": "The story has a _____ lesson.", "t": "그 이야기에는 도덕적인 교훈이 있다." },
-        { "w": "manage", "m": "관리하다", "pos": "verb", "m_rich": "<b>매니저</b>는 스케줄을 <b>관리하고</b> 힘든 일도 <b>해낸다</b>.", "ex": "She _____s a team of 10 people.", "t": "그녀는 10명으로 구성된 팀을 관리한다." },
-        { "w": "ignore", "m": "무시하다", "pos": "verb", "m_rich": "<b>이그, 노<small>는</small></b> 애들이라며 <b>무시하다</b>.", "ex": "He _____d my advice.", "t": "그는 내 충고를 무시했다." },
-        { "w": "advise", "m": "조언하다", "pos": "verb", "m_rich": "<b>어두운 바이스(vice)</b>에서 벗어나라고 <b>조언하다</b>.", "ex": "I would _____ you to study harder.", "t": "더 열심히 공부하라고 조언하고 싶네요." },
-        { "w": "individual", "m": "개인", "pos": "noun", "m_rich": "<b>인디 비주얼</b>! 저 사람은 <b>개인</b>의 스타일이 정말 독특해.", "ex": "Each _____ has a unique talent.", "t": "각 개인은 독특한 재능을 가지고 있다." }
+        {
+          "w": "recognize",
+          "m": "알아보다",
+          "pos": "verb",
+          "m_rich": "<b>내 것 나이 쓰(recognize)</b>! 이건 내 글씨체인 걸 바로 <b>알아보겠네</b>.",
+          "ex": "I didn't _____ you with your new haircut.",
+          "t": "새 머리 스타일 때문에 당신을 알아보지 못했어요.",
+          "pron": { "en": ["rék","əg","nàiz"], "kr": ["레","코그","나이즈"] }
+        },
+        {
+          "w": "produce",
+          "m": "생산하다",
+          "pos": "verb",
+          "m_rich": "<b>프로듀스</b> 101은 아이돌을 <b>생산하는</b> 프로그램이다.",
+          "ex": "This factory _____s cars.",
+          "t": "이 공장은 자동차를 생산한다.",
+          "pron": { "en": ["prə","djúːs"], "kr": ["프러","듀스"] }
+        },
+        {
+          "w": "solve",
+          "m": "해결하다",
+          "pos": "verb",
+          "m_rich": "이 문제는 <b>솔(소나무)</b>잎으로 <b>브(문질러)</b>서 <b>해결했다</b>.",
+          "ex": "We need to _____ this problem quickly.",
+          "t": "우리는 이 문제를 빨리 해결해야 한다.",
+          "pron": { "en": ["sólv"], "kr": ["솔브"] }
+        },
+        {
+          "w": "describe",
+          "m": "묘사하다",
+          "pos": "verb",
+          "m_rich": "<b>디스크<small>를</small> 라이브</b>로 연주하는 느낌을 말로 <b>묘사하다</b>.",
+          "ex": "Can you _____ the man you saw?",
+          "t": "당신이 본 남자를 묘사할 수 있나요?",
+          "pron": { "en": ["di","skráib"], "kr": ["디","스크라이브"] }
+        },
+        {
+          "w": "local",
+          "m": "지역의",
+          "pos": "adjective",
+          "m_rich": "<b>로(low)컬</b>러리? 이 <b>지역의</b> 음식은 칼로리가 낮아.",
+          "ex": "I always buy vegetables from the _____ market.",
+          "t": "나는 항상 지역 시장에서 채소를 산다.",
+          "pron": { "en": ["lóu","kəl"], "kr": ["로","컬"] }
+        },
+        {
+          "w": "method",
+          "m": "방법",
+          "pos": "noun",
+          "m_rich": "그 문제를 푸는 <b>메<small>인</small> 소드(method)</b>는 바로 이 <b>방법</b>이다!",
+          "ex": "We need to find a new _____ to increase sales.",
+          "t": "우리는 매출을 늘릴 새로운 방법을 찾아야 한다.",
+          "pron": { "en": ["méθ","əd"], "kr": ["메","서드"] }
+        },
+        {
+          "w": "attitude",
+          "m": "태도",
+          "pos": "noun",
+          "m_rich": "<b>애티<small>가</small> 튜드(튀네)</b>! 쟤는 <b>태도</b>가 왜 저렇게 튀어?",
+          "ex": "He has a positive _____ towards his work.",
+          "t": "그는 자신의 일에 대해 긍정적인 태도를 가지고 있다.",
+          "pron": { "en": ["æt","i","tjùːd"], "kr": ["애","티","튜드"] }
+        },
+        {
+          "w": "research",
+          "m": "연구",
+          "pos": "noun",
+          "m_rich": "<b>리(다시) 설치</b>해서 <b>연구</b>를 계속하자.",
+          "ex": "She is doing _____ on cancer.",
+          "t": "그녀는 암에 대한 연구를 하고 있다.",
+          "pron": { "en": ["rí","sɜːrtʃ"], "kr": ["리","서치"] }
+        },
+        {
+          "w": "resource",
+          "m": "자원",
+          "pos": "noun",
+          "m_rich": "<b>리(다시) 쏠 수</b> 있게 <b>자원</b>을 보급해라!",
+          "ex": "The country is rich in natural _____s.",
+          "t": "그 나라는 천연자원이 풍부하다.",
+          "pron": { "en": ["rí","sɔːrs"], "kr": ["리","소스"] }
+        },
+        {
+          "w": "major",
+          "m": "주요한",
+          "pos": "adjective",
+          "m_rich": "<b>메이저</b>리그는 <b>주요한</b> 선수들만 갈 수 있어.",
+          "ex": "What is your _____ in college?",
+          "t": "대학에서 전공이 무엇인가요?",
+          "pron": { "en": ["méi","dʒər"], "kr": ["메이","저"] }
+        },
+        {
+          "w": "invent",
+          "m": "발명하다",
+          "pos": "verb",
+          "m_rich": "<b>이 벤 트<small>럭은</small></b> 내가 새로 <b>발명했다</b>.",
+          "ex": "Thomas Edison _____ed the light bulb.",
+          "t": "토머스 에디슨은 전구를 발명했다.",
+          "pron": { "en": ["in","vént"], "kr": ["인","벤트"] }
+        },
+        {
+          "w": "culture",
+          "m": "문화",
+          "pos": "noun",
+          "m_rich": "<b>컬<small>러가</small> 처<small>럼</small></b> 다양하게 섞이는 것이 현대 <b>문화</b>다.",
+          "ex": "I am interested in Korean _____.",
+          "t": "저는 한국 문화에 관심이 있습니다.",
+          "pron": { "en": ["kál","tʃər"], "kr": ["컬","처"] }
+        },
+        {
+          "w": "specific",
+          "m": "구체적인",
+          "pos": "adjective",
+          "m_rich": "<b>스페<small>셜</small> 시 픽(pick)</b>! 가장 <b>구체적인</b> 이유를 하나만 <b>골라봐</b>.",
+          "ex": "Could you be more _____?",
+          "t": "좀 더 구체적으로 말해줄 수 있나요?",
+          "pron": { "en": ["spə","síf","ik"], "kr": ["스퍼","시","픽"] }
+        },
+        {
+          "w": "remind",
+          "m": "상기시키다",
+          "pos": "verb",
+          "m_rich": "<b>네 마인드</b>에 중요한 약속을 다시 <b>상기시켜라</b>.",
+          "ex": "Please _____ me to call him tomorrow.",
+          "t": "내일 그에게 전화하라고 다시 알려주세요.",
+          "pron": { "en": ["ri","máind"], "kr": ["리","마인드"] }
+        },
+        {
+          "w": "judge",
+          "m": "판단하다",
+          "pos": "verb",
+          "m_rich": "<b>저지(jersey)</b>만 보고 선수를 <b>판단하지</b> 마라.",
+          "ex": "Don't _____ a book by its cover.",
+          "t": "겉모습만 보고 판단하지 마라.",
+          "pron": { "en": ["dʒádʒ"], "kr": ["저지"] }
+        },
+        {
+          "w": "moral",
+          "m": "도덕적인",
+          "pos": "adjective",
+          "m_rich": "<b>모를</b> 땐 <b>도덕적인</b> 선택을 하는 것이 옳다.",
+          "ex": "The story has a _____ lesson.",
+          "t": "그 이야기에는 도덕적인 교훈이 있다.",
+          "pron": { "en": ["mɔ́r","əl"], "kr": ["모","럴"] }
+        },
+        {
+          "w": "manage",
+          "m": "관리하다",
+          "pos": "verb",
+          "m_rich": "<b>매니저</b>는 스케줄을 <b>관리하고</b> 힘든 일도 <b>해낸다</b>.",
+          "ex": "She _____s a team of 10 people.",
+          "t": "그녀는 10명으로 구성된 팀을 관리한다.",
+          "pron": { "en": ["mǽn","idʒ"], "kr": ["매","니지"] }
+        },
+        {
+          "w": "ignore",
+          "m": "무시하다",
+          "pos": "verb",
+          "m_rich": "<b>이그, 노<small>는</small></b> 애들이라며 <b>무시하다</b>.",
+          "ex": "He _____d my advice.",
+          "t": "그는 내 충고를 무시했다.",
+          "pron": { "en": ["ig","nɔ́ːr"], "kr": ["이그","노어"] }
+        },
+        {
+          "w": "advise",
+          "m": "조언하다",
+          "pos": "verb",
+          "m_rich": "<b>어두운 바이스(vice)</b>에서 벗어나라고 <b>조언하다</b>.",
+          "ex": "I would _____ you to study harder.",
+          "t": "더 열심히 공부하라고 조언하고 싶네요.",
+          "pron": { "en": ["əd","váiz"], "kr": ["어드","바이즈"] }
+        },
+        {
+          "w": "individual",
+          "m": "개인",
+          "pos": "noun",
+          "m_rich": "<b>인디 비주얼</b>! 저 사람은 <b>개인</b>의 스타일이 정말 독특해.",
+          "ex": "Each _____ has a unique talent.",
+          "t": "각 개인은 독특한 재능을 가지고 있다.",
+          "pron": { "en": ["in","də","víd","ju","əl"], "kr": ["인","디","비","쥬","얼"] }
+        }
       ]
     },
     {
@@ -62,26 +382,186 @@
       "level": "Basic",
       "color": "#10b981",
       "words": [
-        { "w": "affect", "m": "영향을 미치다", "pos": "verb", "m_rich": "<b>어, 팩트</b> 폭력이 내 기분에 <b>영향을 미쳤어</b>.", "ex": "The weather _____s his mood.", "t": "날씨가 그의 기분에 영향을 미친다." },
-        { "w": "organize", "m": "정리하다", "pos": "verb", "m_rich": "<b>오거나이저(organizer)</b>를 써서 책상을 <b>정리하다</b>.", "ex": "She _____d her books by author.", "t": "그녀는 책을 저자별로 정리했다." },
-        { "w": "original", "m": "독창적인", "pos": "adjective", "m_rich": "<b>오리<small>가</small> 지날<small> 때마다</small></b> <b>독창적인</b> 노래를 부른다.", "ex": "This is the _____ painting, not a copy.", "t": "이것은 복제품이 아닌 원본 그림이다." },
-        { "w": "increase", "m": "증가하다", "pos": "verb", "m_rich": "<b>잉크 리스(lease)</b> 비용이 계속 <b>증가한다</b>.", "ex": "The population of the city is _____ing.", "t": "그 도시의 인구는 증가하고 있다." },
-        { "w": "decrease", "m": "감소하다", "pos": "verb", "m_rich": "<b>디<small>저트</small> 크리스<small>마스</small></b> 케이크가 조각조각 <b>감소한다</b>.", "ex": "The number of students has _____d.", "t": "학생 수가 감소했다." },
-        { "w": "react", "m": "반응하다", "pos": "verb", "m_rich": "<b>리액트</b> 프레임워크를 배우니 취업 시장이 뜨겁게 <b>반응한다</b>.", "ex": "How did she _____ to the news?", "t": "그녀는 그 소식에 어떻게 반응했나요?" },
-        { "w": "material", "m": "재료", "pos": "noun", "m_rich": "이 옷의 <b>머티리얼(material)</b>이 뭐야? 좋은 <b>재료</b>를 쓴 것 같아.", "ex": "We need to buy some _____s for the project.", "t": "우리는 프로젝트를 위한 재료를 좀 사야 한다." },
-        { "w": "theory", "m": "이론", "pos": "noun", "m_rich": "<b>시어머니</b>의 잔소리는 과학적 <b>이론</b>에 근거한다?", "ex": "Einstein's _____ of relativity is famous.", "t": "아인슈타인의 상대성 이론은 유명하다." },
-        { "w": "evidence", "m": "증거", "pos": "noun", "m_rich": "<b>에비, 던졌으?</b> 담배꽁초를? 그게 바로 결정적 <b>증거</b>야!", "ex": "The police found _____ against him.", "t": "경찰은 그에게 불리한 증거를 찾았다." },
-        { "w": "participate", "m": "참여하다", "pos": "verb", "m_rich": "<b>파티<small>에</small> 10분<small>만</small></b> <b>참여하다</b>.", "ex": "She didn't _____ in the discussion.", "t": "그녀는 토론에 참여하지 않았다." },
-        { "w": "define", "m": "정의하다", "pos": "verb", "m_rich": "<b>디 파인(The fine)</b> 아트란 무엇인지 <b>정의 내려</b>보세요.", "ex": "It's difficult to _____ the word love.", "t": "사랑이라는 단어를 정의하기는 어렵다." },
-        { "w": "risk", "m": "위험", "pos": "noun", "m_rich": "<b>리스크</b>를 감수하고 사업을 시작했다.", "ex": "There is a _____ of an accident.", "t": "사고의 위험이 있다." },
-        { "w": "conclude", "m": "결론 내리다", "pos": "verb", "m_rich": "<b>큰 클루(clue)</b>를 찾았으니, 사건의 <b>결론을 내리자</b>.", "ex": "We _____d that the plan was not feasible.", "t": "우리는 그 계획이 실현 불가능하다고 결론을 내렸다." },
-        { "w": "maintain", "m": "유지하다", "pos": "verb", "m_rich": "<b>메인 테인(train)</b>은 항상 깨끗하게 <b>유지되어야</b> 한다.", "ex": "It is important to _____ a healthy weight.", "t": "건강한 체중을 유지하는 것은 중요하다." },
-        { "w": "responsible", "m": "책임이 있는", "pos": "adjective", "m_rich": "<b>리스판<small>은</small> 써볼</b>만 해! 이 프로젝트는 내가 <b>책임질게</b>.", "ex": "He is _____ for the team's success.", "t": "그는 팀의 성공에 책임이 있다." },
-        { "w": "avoid", "m": "피하다", "pos": "verb", "m_rich": "<b>어, 보이드(void)</b>! 저기 텅 빈 구멍을 <b>피해서</b> 가자.", "ex": "You should _____ eating junk food.", "t": "너는 정크푸드를 먹는 것을 피해야 한다." },
-        { "w": "essential", "m": "필수적인", "pos": "adjective", "m_rich": "<b>에센셜</b> 오일은 피부 관리에 <b>필수적이다</b>.", "ex": "Water is _____ for life.", "t": "물은 생명에 필수적이다." },
-        { "w": "negative", "m": "부정적인", "pos": "adjective", "m_rich": "<b>네가티브</b>한 뉴스만 보니 <b>부정적인</b> 생각만 들어.", "ex": "Don't be so _____ about everything.", "t": "모든 것에 대해 그렇게 부정적으로 생각하지 마." },
-        { "w": "positive", "m": "긍정적인", "pos": "adjective", "m_rich": "<b>파<small>란</small> 집</b>! 저렇게 튀어도 <b>긍정적인</b> 태도를 유지하네.", "ex": "She has a _____ outlook on life.", "t": "그녀는 삶에 대해 긍정적인 전망을 가지고 있다." },
-        { "w": "aware", "m": "알고 있는", "pos": "adjective", "m_rich": "<b>어, 왜여(웨어)?</b> 무슨 문제 있는지 이미 다 <b>알고 있어</b>.", "ex": "Are you _____ of the danger?", "t": "그 위험을 알고 있나요?" }
+        {
+          "w": "affect",
+          "m": "영향을 미치다",
+          "pos": "verb",
+          "m_rich": "<b>어, 팩트</b> 폭력이 내 기분에 <b>영향을 미쳤어</b>.",
+          "ex": "The weather _____s his mood.",
+          "t": "날씨가 그의 기분에 영향을 미친다.",
+          "pron": { "en": ["ə","fékt"], "kr": ["어","펙트"] }
+        },
+        {
+          "w": "organize",
+          "m": "정리하다",
+          "pos": "verb",
+          "m_rich": "<b>오거나이저(organizer)</b>를 써서 책상을 <b>정리하다</b>.",
+          "ex": "She _____d her books by author.",
+          "t": "그녀는 책을 저자별로 정리했다.",
+          "pron": { "en": ["ɔ́r","gə","nàiz"], "kr": ["오","거","나이즈"] }
+        },
+        {
+          "w": "original",
+          "m": "독창적인",
+          "pos": "adjective",
+          "m_rich": "<b>오리<small>가</small> 지날<small> 때마다</small></b> <b>독창적인</b> 노래를 부른다.",
+          "ex": "This is the _____ painting, not a copy.",
+          "t": "이것은 복제품이 아닌 원본 그림이다.",
+          "pron": { "en": ["ə","ríd","ʒə","nəl"], "kr": ["어","리","저","널"] }
+        },
+        {
+          "w": "increase",
+          "m": "증가하다",
+          "pos": "verb",
+          "m_rich": "<b>잉크 리스(lease)</b> 비용이 계속 <b>증가한다</b>.",
+          "ex": "The population of the city is _____ing.",
+          "t": "그 도시의 인구는 증가하고 있다.",
+          "pron": { "en": ["in","kríːs"], "kr": ["인","크리스"] }
+        },
+        {
+          "w": "decrease",
+          "m": "감소하다",
+          "pos": "verb",
+          "m_rich": "<b>디<small>저트</small> 크리스<small>마스</small></b> 케이크가 조각조각 <b>감소한다</b>.",
+          "ex": "The number of students has _____d.",
+          "t": "학생 수가 감소했다.",
+          "pron": { "en": ["di","kríːs"], "kr": ["디","크리스"] }
+        },
+        {
+          "w": "react",
+          "m": "반응하다",
+          "pos": "verb",
+          "m_rich": "<b>리액트</b> 프레임워크를 배우니 취업 시장이 뜨겁게 <b>반응한다</b>.",
+          "ex": "How did she _____ to the news?",
+          "t": "그녀는 그 소식에 어떻게 반응했나요?",
+          "pron": { "en": ["ri","ækt"], "kr": ["리","액트"] }
+        },
+        {
+          "w": "material",
+          "m": "재료",
+          "pos": "noun",
+          "m_rich": "이 옷의 <b>머티리얼(material)</b>이 뭐야? 좋은 <b>재료</b>를 쓴 것 같아.",
+          "ex": "We need to buy some _____s for the project.",
+          "t": "우리는 프로젝트를 위한 재료를 좀 사야 한다.",
+          "pron": { "en": ["mə","tíər","i","əl"], "kr": ["머","티어","리","얼"] }
+        },
+        {
+          "w": "theory",
+          "m": "이론",
+          "pos": "noun",
+          "m_rich": "<b>시어머니</b>의 잔소리는 과학적 <b>이론</b>에 근거한다?",
+          "ex": "Einstein's _____ of relativity is famous.",
+          "t": "아인슈타인의 상대성 이론은 유명하다.",
+          "pron": { "en": ["θíər","i"], "kr": ["씨어","리"] }
+        },
+        {
+          "w": "evidence",
+          "m": "증거",
+          "pos": "noun",
+          "m_rich": "<b>에비, 던졌으?</b> 담배꽁초를? 그게 바로 결정적 <b>증거</b>야!",
+          "ex": "The police found _____ against him.",
+          "t": "경찰은 그에게 불리한 증거를 찾았다.",
+          "pron": { "en": ["év","i","dəns"], "kr": ["에","비","던스"] }
+        },
+        {
+          "w": "participate",
+          "m": "참여하다",
+          "pos": "verb",
+          "m_rich": "<b>파티<small>에</small> 10분<small>만</small></b> <b>참여하다</b>.",
+          "ex": "She didn't _____ in the discussion.",
+          "t": "그녀는 토론에 참여하지 않았다.",
+          "pron": { "en": ["pɑːr","tís","ə","pèit"], "kr": ["파","티","서","페이트"] }
+        },
+        {
+          "w": "define",
+          "m": "정의하다",
+          "pos": "verb",
+          "m_rich": "<b>디 파인(The fine)</b> 아트란 무엇인지 <b>정의 내려</b>보세요.",
+          "ex": "It's difficult to _____ the word love.",
+          "t": "사랑이라는 단어를 정의하기는 어렵다.",
+          "pron": { "en": ["di","fáin"], "kr": ["디","파인"] }
+        },
+        {
+          "w": "risk",
+          "m": "위험",
+          "pos": "noun",
+          "m_rich": "<b>리스크</b>를 감수하고 사업을 시작했다.",
+          "ex": "There is a _____ of an accident.",
+          "t": "사고의 위험이 있다.",
+          "pron": { "en": ["rísk"], "kr": ["리스크"] }
+        },
+        {
+          "w": "conclude",
+          "m": "결론 내리다",
+          "pos": "verb",
+          "m_rich": "<b>큰 클루(clue)</b>를 찾았으니, 사건의 <b>결론을 내리자</b>.",
+          "ex": "We _____d that the plan was not feasible.",
+          "t": "우리는 그 계획이 실현 불가능하다고 결론을 내렸다.",
+          "pron": { "en": ["kən","klúːd"], "kr": ["컨","클루드"] }
+        },
+        {
+          "w": "maintain",
+          "m": "유지하다",
+          "pos": "verb",
+          "m_rich": "<b>메인 테인(train)</b>은 항상 깨끗하게 <b>유지되어야</b> 한다.",
+          "ex": "It is important to _____ a healthy weight.",
+          "t": "건강한 체중을 유지하는 것은 중요하다.",
+          "pron": { "en": ["mein","téin"], "kr": ["메인","테인"] }
+        },
+        {
+          "w": "responsible",
+          "m": "책임이 있는",
+          "pos": "adjective",
+          "m_rich": "<b>리스판<small>은</small> 써볼</b>만 해! 이 프로젝트는 내가 <b>책임질게</b>.",
+          "ex": "He is _____ for the team's success.",
+          "t": "그는 팀의 성공에 책임이 있다.",
+          "pron": { "en": ["ri","spón","sə","bəl"], "kr": ["리","스폰","서","블"] }
+        },
+        {
+          "w": "avoid",
+          "m": "피하다",
+          "pos": "verb",
+          "m_rich": "<b>어, 보이드(void)</b>! 저기 텅 빈 구멍을 <b>피해서</b> 가자.",
+          "ex": "You should _____ eating junk food.",
+          "t": "너는 정크푸드를 먹는 것을 피해야 한다.",
+          "pron": { "en": ["ə","vɔ́id"], "kr": ["어","보이드"] }
+        },
+        {
+          "w": "essential",
+          "m": "필수적인",
+          "pos": "adjective",
+          "m_rich": "<b>에센셜</b> 오일은 피부 관리에 <b>필수적이다</b>.",
+          "ex": "Water is _____ for life.",
+          "t": "물은 생명에 필수적이다.",
+          "pron": { "en": ["i","sén","ʃəl"], "kr": ["이","센","셜"] }
+        },
+        {
+          "w": "negative",
+          "m": "부정적인",
+          "pos": "adjective",
+          "m_rich": "<b>네가티브</b>한 뉴스만 보니 <b>부정적인</b> 생각만 들어.",
+          "ex": "Don't be so _____ about everything.",
+          "t": "모든 것에 대해 그렇게 부정적으로 생각하지 마.",
+          "pron": { "en": ["nég","ə","tiv"], "kr": ["네","거","티브"] }
+        },
+        {
+          "w": "positive",
+          "m": "긍정적인",
+          "pos": "adjective",
+          "m_rich": "<b>파<small>란</small> 집</b>! 저렇게 튀어도 <b>긍정적인</b> 태도를 유지하네.",
+          "ex": "She has a _____ outlook on life.",
+          "t": "그녀는 삶에 대해 긍정적인 전망을 가지고 있다.",
+          "pron": { "en": ["póz","ə","tiv"], "kr": ["포","저","티브"] }
+        },
+        {
+          "w": "aware",
+          "m": "알고 있는",
+          "pos": "adjective",
+          "m_rich": "<b>어, 왜여(웨어)?</b> 무슨 문제 있는지 이미 다 <b>알고 있어</b>.",
+          "ex": "Are you _____ of the danger?",
+          "t": "그 위험을 알고 있나요?",
+          "pron": { "en": ["ə","wéər"], "kr": ["어","웨어"] }
+        }
       ]
     },
     {
@@ -90,26 +570,186 @@
       "level": "Intermediate",
       "color": "#6366f1",
       "words": [
-        { "w": "prohibit", "m": "금지하다", "pos": "verb", "m_rich": "<b>프로<small>가 되려면</small> 히<small>히덕대는</small> 빚<small>쟁이</small></b>를 만나는 걸 <b>금지해야</b> 해.", "ex": "Smoking is _____ed in this building.", "t": "이 건물에서는 흡연이 금지되어 있습니다." },
-        { "w": "persuade", "m": "설득하다", "pos": "verb", "m_rich": "<b>펄 스웨이드</b> 자켓을 사주며 그녀를 <b>설득하다</b>.", "ex": "He _____d me to join the club.", "t": "그는 내가 동아리에 가입하도록 설득했다." },
-        { "w": "enormous", "m": "엄청난", "pos": "adjective", "m_rich": "<b>이놈<small>의</small> 스<small>케일 좀 봐</small></b>! 정말 <b>엄청난</b> 크기네!", "ex": "They live in an _____ house.", "t": "그들은 엄청난 집에 산다." },
-        { "w": "consequence", "m": "결과", "pos": "noun", "m_rich": "<b>칸<small>마다</small> 시퀀스<small>가</small></b> 이어져 영화의 최종 <b>결과</b>를 만든다.", "ex": "He must face the _____s of his actions.", "t": "그는 자신의 행동의 결과를 감수해야 한다." },
-        { "w": "appropriate", "m": "적절한", "pos": "adjective", "m_rich": "<b>어, 프로 프리 에잇(8)?</b> 프로가 공짜로 8개 먹는 건 <b>적절하지 않아</b>!", "ex": "Wear clothes _____ for the occasion.", "t": "상황에 적절한 옷을 입으세요." },
-        { "w": "distinguish", "m": "구별하다", "pos": "verb", "m_rich": "<b>디스 팅<small>기는</small> 귀<small>한</small> 쇠</b>는 소리만으로 <b>구별할</b> 수 있다.", "ex": "I cannot _____ between the twins.", "t": "나는 그 쌍둥이를 구별할 수 없다." },
-        { "w": "accuse", "m": "고발하다", "pos": "verb", "m_rich": "<b>어, 퀴즈</b>의 답을 훔쳐봤다며 친구를 <b>고발하다</b>.", "ex": "She was _____d of stealing money.", "t": "그녀는 돈을 훔쳤다는 혐의로 고발당했다." },
-        { "w": "reduce", "m": "줄이다", "pos": "verb", "m_rich": "몸무게를 <b>줄이려고</b> 마시는 <b>이 듀스(reduce)</b>.", "ex": "We need to _____ our expenses.", "t": "우리는 지출을 줄여야 한다." },
-        { "w": "obstacle", "m": "장애물", "pos": "noun", "m_rich": "<b>업<small>고</small> 스<small>스로</small> 태클</b>! 스스로 발목을 잡는 게 가장 큰 <b>장애물</b>이다.", "ex": "Lack of money is a major _____.", "t": "자금 부족이 주요한 장애물이다." },
-        { "w": "determine", "m": "결정하다", "pos": "verb", "m_rich": "<b>디 털 민<small>다</small>!</b> 내가 오늘 네 털을 밀기로 <b>결정했다</b>!", "ex": "We must _____ the cause of the problem.", "t": "우리는 문제의 원인을 밝혀내야 한다." },
-        { "w": "reputation", "m": "평판", "pos": "noun", "m_rich": "<b>래피드하게 테이션(tension)</b>을 올리는 걸로 <b>평판</b>이 자자하다.", "ex": "The company has a good _____.", "t": "그 회사는 평판이 좋다." },
-        { "w": "conserve", "m": "보존하다", "pos": "verb", "m_rich": "반찬을 <b>칸<small>마다</small> 서브<small>해서</small></b> 신선하게 <b>보존하다</b>.", "ex": "We must _____ our natural resources.", "t": "우리는 천연자원을 보존해야 한다." },
-        { "w": "negotiate", "m": "협상하다", "pos": "verb", "m_rich": "<b>네고<small>할</small> 시에<small>는</small> 에이트(8)</b>% 이상 안 된다며 <b>협상하다</b>.", "ex": "The government will _____ with the union.", "t": "정부는 노동조합과 협상할 것이다." },
-        { "w": "alternative", "m": "대안", "pos": "noun", "m_rich": "<b>알<small>이</small> 터<small>지기</small> 너<small>무</small> 티<small>나</small></b>브러. 다른 <b>대안</b>을 찾자.", "ex": "Is there any _____ to surgery?", "t": "수술 외에 다른 대안이 있나요?" },
-        { "w": "collapse", "m": "붕괴하다", "pos": "verb", "m_rich": "<b>콜라<small>를</small> 랩스(laps)</b> 수십 바퀴 마시더니 결국 <b>쓰러져 붕괴했다</b>.", "ex": "The old building _____d.", "t": "그 낡은 건물이 붕괴했다." },
-        { "w": "inspect", "m": "조사하다", "pos": "verb", "m_rich": "<b>인(in) 스펙</b>까지 꼼꼼하게 <b>조사하다</b>.", "ex": "The police _____ed the crime scene.", "t": "경찰은 범죄 현장을 조사했다." },
-        { "w": "fundamental", "m": "근본적인", "pos": "adjective", "m_rich": "<b>펀더멘탈</b>이 강한 것이 성공의 <b>근본적인</b> 이유다.", "ex": "Hard work is _____ to success.", "t": "노력은 성공에 근본적이다." },
-        { "w": "emphasize", "m": "강조하다", "pos": "verb", "m_rich": "<b>M<small>사이즈</small> 퍼<small>는</small> 사이즈</b>가 작다고 <b>강조하다</b>.", "ex": "He _____d the importance of teamwork.", "t": "그는 팀워크의 중요성을 강조했다." },
-        { "w": "overcome", "m": "극복하다", "pos": "verb", "m_rich": "산을 <b>오버(over)<small>해서</small> 컴(come)</b>! 드디어 고난을 <b>극복했다</b>.", "ex": "She _____ her fear of flying.", "t": "그녀는 비행 공포증을 극복했다." },
-        { "w": "significant", "m": "중요한", "pos": "adjective", "m_rich": "<b>시그널<small>이</small> 피<small>나게</small> 큰 트<small>럭</small></b>! 정말 <b>중요한</b> 배달이다.", "ex": "There has been a _____ increase in sales.", "t": "매출에 상당한 증가가 있었다." }
+        {
+          "w": "prohibit",
+          "m": "금지하다",
+          "pos": "verb",
+          "m_rich": "<b>프로<small>가 되려면</small> 히<small>히덕대는</small> 빚<small>쟁이</small></b>를 만나는 걸 <b>금지해야</b> 해.",
+          "ex": "Smoking is _____ed in this building.",
+          "t": "이 건물에서는 흡연이 금지되어 있습니다.",
+          "pron": { "en": ["prə","híb","it"], "kr": ["프러","히","빗"] }
+        },
+        {
+          "w": "persuade",
+          "m": "설득하다",
+          "pos": "verb",
+          "m_rich": "<b>펄 스웨이드</b> 자켓을 사주며 그녀를 <b>설득하다</b>.",
+          "ex": "He _____d me to join the club.",
+          "t": "그는 내가 동아리에 가입하도록 설득했다.",
+          "pron": { "en": ["pər","swéid"], "kr": ["퍼","스웨이드"] }
+        },
+        {
+          "w": "enormous",
+          "m": "엄청난",
+          "pos": "adjective",
+          "m_rich": "<b>이놈<small>의</small> 스<small>케일 좀 봐</small></b>! 정말 <b>엄청난</b> 크기네!",
+          "ex": "They live in an _____ house.",
+          "t": "그들은 엄청난 집에 산다.",
+          "pron": { "en": ["i","nɔ́ːr","məs"], "kr": ["이","노","머스"] }
+        },
+        {
+          "w": "consequence",
+          "m": "결과",
+          "pos": "noun",
+          "m_rich": "<b>칸<small>마다</small> 시퀀스<small>가</small></b> 이어져 영화의 최종 <b>결과</b>를 만든다.",
+          "ex": "He must face the _____s of his actions.",
+          "t": "그는 자신의 행동의 결과를 감수해야 한다.",
+          "pron": { "en": ["kón","si","kwèns"], "kr": ["콘","시","퀀스"] }
+        },
+        {
+          "w": "appropriate",
+          "m": "적절한",
+          "pos": "adjective",
+          "m_rich": "<b>어, 프로 프리 에잇(8)?</b> 프로가 공짜로 8개 먹는 건 <b>적절하지 않아</b>!",
+          "ex": "Wear clothes _____ for the occasion.",
+          "t": "상황에 적절한 옷을 입으세요.",
+          "pron": { "en": ["ə","próu","pri","ət"], "kr": ["어","프로","프리","엇"] }
+        },
+        {
+          "w": "distinguish",
+          "m": "구별하다",
+          "pos": "verb",
+          "m_rich": "<b>디스 팅<small>기는</small> 귀<small>한</small> 쇠</b>는 소리만으로 <b>구별할</b> 수 있다.",
+          "ex": "I cannot _____ between the twins.",
+          "t": "나는 그 쌍둥이를 구별할 수 없다.",
+          "pron": { "en": ["di","stíŋ","gwiʃ"], "kr": ["디","스팅","귀쉬"] }
+        },
+        {
+          "w": "accuse",
+          "m": "고발하다",
+          "pos": "verb",
+          "m_rich": "<b>어, 퀴즈</b>의 답을 훔쳐봤다며 친구를 <b>고발하다</b>.",
+          "ex": "She was _____d of stealing money.",
+          "t": "그녀는 돈을 훔쳤다는 혐의로 고발당했다.",
+          "pron": { "en": ["ə","kjúːz"], "kr": ["어","큐즈"] }
+        },
+        {
+          "w": "reduce",
+          "m": "줄이다",
+          "pos": "verb",
+          "m_rich": "몸무게를 <b>줄이려고</b> 마시는 <b>이 듀스(reduce)</b>.",
+          "ex": "We need to _____ our expenses.",
+          "t": "우리는 지출을 줄여야 한다.",
+          "pron": { "en": ["ri","djúːs"], "kr": ["리","듀스"] }
+        },
+        {
+          "w": "obstacle",
+          "m": "장애물",
+          "pos": "noun",
+          "m_rich": "<b>업<small>고</small> 스<small>스로</small> 태클</b>! 스스로 발목을 잡는 게 가장 큰 <b>장애물</b>이다.",
+          "ex": "Lack of money is a major _____.",
+          "t": "자금 부족이 주요한 장애물이다.",
+          "pron": { "en": ["ób","stə","kəl"], "kr": ["옵","스터","클"] }
+        },
+        {
+          "w": "determine",
+          "m": "결정하다",
+          "pos": "verb",
+          "m_rich": "<b>디 털 민<small>다</small>!</b> 내가 오늘 네 털을 밀기로 <b>결정했다</b>!",
+          "ex": "We must _____ the cause of the problem.",
+          "t": "우리는 문제의 원인을 밝혀내야 한다.",
+          "pron": { "en": ["di","tə́ːr","min"], "kr": ["디","터","민"] }
+        },
+        {
+          "w": "reputation",
+          "m": "평판",
+          "pos": "noun",
+          "m_rich": "<b>래피드하게 테이션(tension)</b>을 올리는 걸로 <b>평판</b>이 자자하다.",
+          "ex": "The company has a good _____.",
+          "t": "그 회사는 평판이 좋다.",
+          "pron": { "en": ["rèp","ju","téiʃ","ən"], "kr": ["레","퓨","테이","션"] }
+        },
+        {
+          "w": "conserve",
+          "m": "보존하다",
+          "pos": "verb",
+          "m_rich": "반찬을 <b>칸<small>마다</small> 서브<small>해서</small></b> 신선하게 <b>보존하다</b>.",
+          "ex": "We must _____ our natural resources.",
+          "t": "우리는 천연자원을 보존해야 한다.",
+          "pron": { "en": ["kən","sə́ːrv"], "kr": ["컨","서브"] }
+        },
+        {
+          "w": "negotiate",
+          "m": "협상하다",
+          "pos": "verb",
+          "m_rich": "<b>네고<small>할</small> 시에<small>는</small> 에이트(8)</b>% 이상 안 된다며 <b>협상하다</b>.",
+          "ex": "The government will _____ with the union.",
+          "t": "정부는 노동조합과 협상할 것이다.",
+          "pron": { "en": ["ni","góu","ʃi","èit"], "kr": ["니","고","시","에이트"] }
+        },
+        {
+          "w": "alternative",
+          "m": "대안",
+          "pos": "noun",
+          "m_rich": "<b>알<small>이</small> 터<small>지기</small> 너<small>무</small> 티<small>나</small></b>브러. 다른 <b>대안</b>을 찾자.",
+          "ex": "Is there any _____ to surgery?",
+          "t": "수술 외에 다른 대안이 있나요?",
+          "pron": { "en": ["ɔːl","tə́ːr","nə","tiv"], "kr": ["올","터","너","티브"] }
+        },
+        {
+          "w": "collapse",
+          "m": "붕괴하다",
+          "pos": "verb",
+          "m_rich": "<b>콜라<small>를</small> 랩스(laps)</b> 수십 바퀴 마시더니 결국 <b>쓰러져 붕괴했다</b>.",
+          "ex": "The old building _____d.",
+          "t": "그 낡은 건물이 붕괴했다.",
+          "pron": { "en": ["kə","læps"], "kr": ["커","랩스"] }
+        },
+        {
+          "w": "inspect",
+          "m": "조사하다",
+          "pos": "verb",
+          "m_rich": "<b>인(in) 스펙</b>까지 꼼꼼하게 <b>조사하다</b>.",
+          "ex": "The police _____ed the crime scene.",
+          "t": "경찰은 범죄 현장을 조사했다.",
+          "pron": { "en": ["in","spékt"], "kr": ["인","스펙트"] }
+        },
+        {
+          "w": "fundamental",
+          "m": "근본적인",
+          "pos": "adjective",
+          "m_rich": "<b>펀더멘탈</b>이 강한 것이 성공의 <b>근본적인</b> 이유다.",
+          "ex": "Hard work is _____ to success.",
+          "t": "노력은 성공에 근본적이다.",
+          "pron": { "en": ["fʌn","də","mén","tl"], "kr": ["펀","더","멘","털"] }
+        },
+        {
+          "w": "emphasize",
+          "m": "강조하다",
+          "pos": "verb",
+          "m_rich": "<b>M<small>사이즈</small> 퍼<small>는</small> 사이즈</b>가 작다고 <b>강조하다</b>.",
+          "ex": "He _____d the importance of teamwork.",
+          "t": "그는 팀워크의 중요성을 강조했다.",
+          "pron": { "en": ["ém","fə","sàiz"], "kr": ["엠","퍼","사이즈"] }
+        },
+        {
+          "w": "overcome",
+          "m": "극복하다",
+          "pos": "verb",
+          "m_rich": "산을 <b>오버(over)<small>해서</small> 컴(come)</b>! 드디어 고난을 <b>극복했다</b>.",
+          "ex": "She _____ her fear of flying.",
+          "t": "그녀는 비행 공포증을 극복했다.",
+          "pron": { "en": ["òu","vər","kám"], "kr": ["오","버","컴"] }
+        },
+        {
+          "w": "significant",
+          "m": "중요한",
+          "pos": "adjective",
+          "m_rich": "<b>시그널<small>이</small> 피<small>나게</small> 큰 트<small>럭</small></b>! 정말 <b>중요한</b> 배달이다.",
+          "ex": "There has been a _____ increase in sales.",
+          "t": "매출에 상당한 증가가 있었다.",
+          "pron": { "en": ["sig","níf","i","kənt"], "kr": ["시그","니","피","컨트"] }
+        }
       ]
     },
     {
@@ -118,26 +758,186 @@
       "level": "Intermediate",
       "color": "#6366f1",
       "words": [
-        { "w": "acquire", "m": "획득하다", "pos": "verb", "m_rich": "<b>어, 콰이어(choir)</b> 합창단 전체를 <b>인수(획득)하다니</b> 대단해!", "ex": "He _____d a reputation for honesty.", "t": "그는 정직하다는 평판을 얻었다." },
-        { "w": "assess", "m": "평가하다", "pos": "verb", "m_rich": "<b>어, 쎄<small>네</small> 스<small>피드가</small></b>! 너의 능력을 다시 <b>평가해야겠어</b>.", "ex": "We need to _____ the impact on the environment.", "t": "우리는 환경에 미치는 영향을 평가해야 한다." },
-        { "w": "authority", "m": "권위", "pos": "noun", "m_rich": "<b>오, 서리 티<small>가 나네</small></b>! 감히 <b>권위</b> 있는 감찰관의 물건을 훔치다니.", "ex": "He has no _____ over us.", "t": "그는 우리에 대한 권한이 없다." },
-        { "w": "available", "m": "이용 가능한", "pos": "adjective", "m_rich": "<b>어, 베일<small>은</small> 업을<small> 때</small></b>만 <b>이용 가능합니다</b>.", "ex": "Are there any tickets _____?", "t": "이용 가능한 표가 있나요?" },
-        { "w": "benefit", "m": "혜택", "pos": "noun", "m_rich": "<b>베네<small>핏</small></b>! 건강에 좋은 <b>혜택</b>이 가득하다.", "ex": "What are the _____s of this new system?", "t": "이 새로운 시스템의 혜택은 무엇인가요?" },
-        { "w": "concept", "m": "개념", "pos": "noun", "m_rich": "<b>콘<small>으로 만든</small> 셉(집)</b>, 이건 새로운 건축 <b>개념</b>이다!", "ex": "It is a difficult _____ to understand.", "t": "그것은 이해하기 어려운 개념이다." },
-        { "w": "consist", "m": "구성되다", "pos": "verb", "m_rich": "이 팀은 <b>큰 시스터</b>들로 <b>구성되어</b> 있다.", "ex": "The committee _____s of ten members.", "t": "그 위원회는 10명의 위원으로 구성되어 있다." },
-        { "w": "context", "m": "맥락", "pos": "noun", "m_rich": "<b>칸 텍스트</b>! 이 <b>칸의 텍스트</b>만 보지 말고 전체 <b>맥락</b>을 봐.", "ex": "You should consider the _____ of the situation.", "t": "당신은 그 상황의 맥락을 고려해야 한다." },
-        { "w": "contract", "m": "계약", "pos": "noun", "m_rich": "<b>큰 트랙</b>을 건설하는 <b>계약</b>을 맺다.", "ex": "He signed a _____ with the company.", "t": "그는 그 회사와 계약을 맺었다." },
-        { "w": "factor", "m": "요인", "pos": "noun", "m_rich": "성공의 <b>팩터(factor)</b>는 바로 '운'이라는 <b>요인</b>이다.", "ex": "Price is an important _____ in my decision.", "t": "가격은 내 결정에 중요한 요인이다." },
-        { "w": "financial", "m": "재정의", "pos": "adjective", "m_rich": "<b>파이<small>가</small> 낸 셜(설)</b>! 새해에는 <b>재정</b> 계획을 잘 세우라는 설교.", "ex": "He has some _____ problems.", "t": "그는 몇 가지 재정적인 문제가 있다." },
-        { "w": "formula", "m": "공식", "pos": "noun", "m_rich": "<b>포뮬러</b> 원 레이싱카에는 이기는 <b>공식</b>이 있다.", "ex": "What is the _____ for the area of a circle?", "t": "원의 면적을 구하는 공식이 무엇인가요?" },
-        { "w": "function", "m": "기능", "pos": "noun", "m_rich": "이 리모컨의 <b>펑션</b> 키는 어떤 <b>기능</b>을 해?", "ex": "The _____ of the heart is to pump blood.", "t": "심장의 기능은 피를 펌프질하는 것이다." },
-        { "w": "identify", "m": "식별하다", "pos": "verb", "m_rich": "<b>아이덴티티<small>를</small> 파이</b>처럼 나눠서 너의 정체를 <b>식별하다</b>.", "ex": "Can you _____ the person in the picture?", "t": "사진 속의 인물을 식별할 수 있나요?" },
-        { "w": "income", "m": "수입", "pos": "noun", "m_rich": "이번 달 <b>인컴(income)</b>은 이것뿐이라니! <b>수입</b>이 너무 적어.", "ex": "His _____ is not enough to support his family.", "t": "그의 소득은 가족을 부양하기에 충분하지 않다." },
-        { "w": "indicate", "m": "나타내다", "pos": "verb", "m_rich": "<b>인디 케이트</b>! 저 문이 출구임을 <b>가리키고</b> 있다.", "ex": "The red light _____s that the battery is low.", "t": "빨간 불은 배터리가 부족하다는 것을 나타낸다." },
-        { "w": "interpret", "m": "해석하다", "pos": "verb", "m_rich": "<b>인<small>터</small> 풀<small>에</small>잇(it)!</b> 그가 한 말을 다르게 <b>해석하지</b> 마.", "ex": "How do you _____ this poem?", "t": "이 시를 어떻게 해석하나요?" },
-        { "w": "involve", "m": "관련시키다", "pos": "verb", "m_rich": "<b>인(in) 볼보</b>! 이 사건은 볼보 자동차를 <b>포함하고</b> 있다.", "ex": "The job _____s a lot of travel.", "t": "그 직업은 많은 출장을 포함한다." },
-        { "w": "issue", "m": "문제", "pos": "noun", "m_rich": "이번 호 잡지의 <b>이슈</b>는 환경 <b>문제</b>를 다루고 있다.", "ex": "We need to discuss this _____.", "t": "우리는 이 문제를 논의해야 한다." },
-        { "w": "justify", "m": "정당화하다", "pos": "verb", "m_rich": "<b>저스티스(justice)</b>! 정의로운 이유로 행동을 <b>정당화하다</b>.", "ex": "Nothing can _____ such cruelty.", "t": "어떤 것도 그런 잔인함을 정당화할 수 없다." }
+        {
+          "w": "acquire",
+          "m": "획득하다",
+          "pos": "verb",
+          "m_rich": "<b>어, 콰이어(choir)</b> 합창단 전체를 <b>인수(획득)하다니</b> 대단해!",
+          "ex": "He _____d a reputation for honesty.",
+          "t": "그는 정직하다는 평판을 얻었다.",
+          "pron": { "en": ["ə","kwáiər"], "kr": ["어","콰이어"] }
+        },
+        {
+          "w": "assess",
+          "m": "평가하다",
+          "pos": "verb",
+          "m_rich": "<b>어, 쎄<small>네</small> 스<small>피드가</small></b>! 너의 능력을 다시 <b>평가해야겠어</b>.",
+          "ex": "We need to _____ the impact on the environment.",
+          "t": "우리는 환경에 미치는 영향을 평가해야 한다.",
+          "pron": { "en": ["ə","sés"], "kr": ["어","세스"] }
+        },
+        {
+          "w": "authority",
+          "m": "권위",
+          "pos": "noun",
+          "m_rich": "<b>오, 서리 티<small>가 나네</small></b>! 감히 <b>권위</b> 있는 감찰관의 물건을 훔치다니.",
+          "ex": "He has no _____ over us.",
+          "t": "그는 우리에 대한 권한이 없다.",
+          "pron": { "en": ["ə","θɔ́ːr","i","ti"], "kr": ["어","쏘","리","티"] }
+        },
+        {
+          "w": "available",
+          "m": "이용 가능한",
+          "pos": "adjective",
+          "m_rich": "<b>어, 베일<small>은</small> 업을<small> 때</small></b>만 <b>이용 가능합니다</b>.",
+          "ex": "Are there any tickets _____?",
+          "t": "이용 가능한 표가 있나요?",
+          "pron": { "en": ["ə","véil","ə","bəl"], "kr": ["어","베일","러","블"] }
+        },
+        {
+          "w": "benefit",
+          "m": "혜택",
+          "pos": "noun",
+          "m_rich": "<b>베네<small>핏</small></b>! 건강에 좋은 <b>혜택</b>이 가득하다.",
+          "ex": "What are the _____s of this new system?",
+          "t": "이 새로운 시스템의 혜택은 무엇인가요?",
+          "pron": { "en": ["bén","ə","fit"], "kr": ["베","너","핏"] }
+        },
+        {
+          "w": "concept",
+          "m": "개념",
+          "pos": "noun",
+          "m_rich": "<b>콘<small>으로 만든</small> 셉(집)</b>, 이건 새로운 건축 <b>개념</b>이다!",
+          "ex": "It is a difficult _____ to understand.",
+          "t": "그것은 이해하기 어려운 개념이다.",
+          "pron": { "en": ["kón","sept"], "kr": ["콘","셉트"] }
+        },
+        {
+          "w": "consist",
+          "m": "구성되다",
+          "pos": "verb",
+          "m_rich": "이 팀은 <b>큰 시스터</b>들로 <b>구성되어</b> 있다.",
+          "ex": "The committee _____s of ten members.",
+          "t": "그 위원회는 10명의 위원으로 구성되어 있다.",
+          "pron": { "en": ["kən","síst"], "kr": ["컨","시스트"] }
+        },
+        {
+          "w": "context",
+          "m": "맥락",
+          "pos": "noun",
+          "m_rich": "<b>칸 텍스트</b>! 이 <b>칸의 텍스트</b>만 보지 말고 전체 <b>맥락</b>을 봐.",
+          "ex": "You should consider the _____ of the situation.",
+          "t": "당신은 그 상황의 맥락을 고려해야 한다.",
+          "pron": { "en": ["kón","tekst"], "kr": ["콘","텍스트"] }
+        },
+        {
+          "w": "contract",
+          "m": "계약",
+          "pos": "noun",
+          "m_rich": "<b>큰 트랙</b>을 건설하는 <b>계약</b>을 맺다.",
+          "ex": "He signed a _____ with the company.",
+          "t": "그는 그 회사와 계약을 맺었다.",
+          "pron": { "en": ["kón","trækt"], "kr": ["콘","트랙트"] }
+        },
+        {
+          "w": "factor",
+          "m": "요인",
+          "pos": "noun",
+          "m_rich": "성공의 <b>팩터(factor)</b>는 바로 '운'이라는 <b>요인</b>이다.",
+          "ex": "Price is an important _____ in my decision.",
+          "t": "가격은 내 결정에 중요한 요인이다.",
+          "pron": { "en": ["fǽk","tər"], "kr": ["팩","터"] }
+        },
+        {
+          "w": "financial",
+          "m": "재정의",
+          "pos": "adjective",
+          "m_rich": "<b>파이<small>가</small> 낸 셜(설)</b>! 새해에는 <b>재정</b> 계획을 잘 세우라는 설교.",
+          "ex": "He has some _____ problems.",
+          "t": "그는 몇 가지 재정적인 문제가 있다.",
+          "pron": { "en": ["fə","næn","ʃəl"], "kr": ["퍼","낸","셜"] }
+        },
+        {
+          "w": "formula",
+          "m": "공식",
+          "pos": "noun",
+          "m_rich": "<b>포뮬러</b> 원 레이싱카에는 이기는 <b>공식</b>이 있다.",
+          "ex": "What is the _____ for the area of a circle?",
+          "t": "원의 면적을 구하는 공식이 무엇인가요?",
+          "pron": { "en": ["fɔ́ːr","mjə","lə"], "kr": ["포","뮬","러"] }
+        },
+        {
+          "w": "function",
+          "m": "기능",
+          "pos": "noun",
+          "m_rich": "이 리모컨의 <b>펑션</b> 키는 어떤 <b>기능</b>을 해?",
+          "ex": "The _____ of the heart is to pump blood.",
+          "t": "심장의 기능은 피를 펌프질하는 것이다.",
+          "pron": { "en": ["fáŋk","ʃən"], "kr": ["펑","션"] }
+        },
+        {
+          "w": "identify",
+          "m": "식별하다",
+          "pos": "verb",
+          "m_rich": "<b>아이덴티티<small>를</small> 파이</b>처럼 나눠서 너의 정체를 <b>식별하다</b>.",
+          "ex": "Can you _____ the person in the picture?",
+          "t": "사진 속의 인물을 식별할 수 있나요?",
+          "pron": { "en": ["ai","dén","tə","fài"], "kr": ["아이","덴","티","파이"] }
+        },
+        {
+          "w": "income",
+          "m": "수입",
+          "pos": "noun",
+          "m_rich": "이번 달 <b>인컴(income)</b>은 이것뿐이라니! <b>수입</b>이 너무 적어.",
+          "ex": "His _____ is not enough to support his family.",
+          "t": "그의 소득은 가족을 부양하기에 충분하지 않다.",
+          "pron": { "en": ["ín","kʌm"], "kr": ["인","컴"] }
+        },
+        {
+          "w": "indicate",
+          "m": "나타내다",
+          "pos": "verb",
+          "m_rich": "<b>인디 케이트</b>! 저 문이 출구임을 <b>가리키고</b> 있다.",
+          "ex": "The red light _____s that the battery is low.",
+          "t": "빨간 불은 배터리가 부족하다는 것을 나타낸다.",
+          "pron": { "en": ["ín","di","kèit"], "kr": ["인","디","케이트"] }
+        },
+        {
+          "w": "interpret",
+          "m": "해석하다",
+          "pos": "verb",
+          "m_rich": "<b>인<small>터</small> 풀<small>에</small>잇(it)!</b> 그가 한 말을 다르게 <b>해석하지</b> 마.",
+          "ex": "How do you _____ this poem?",
+          "t": "이 시를 어떻게 해석하나요?",
+          "pron": { "en": ["in","tə́ːr","prit"], "kr": ["인","터","프릿"] }
+        },
+        {
+          "w": "involve",
+          "m": "관련시키다",
+          "pos": "verb",
+          "m_rich": "<b>인(in) 볼보</b>! 이 사건은 볼보 자동차를 <b>포함하고</b> 있다.",
+          "ex": "The job _____s a lot of travel.",
+          "t": "그 직업은 많은 출장을 포함한다.",
+          "pron": { "en": ["in","vólv"], "kr": ["인","볼브"] }
+        },
+        {
+          "w": "issue",
+          "m": "문제",
+          "pos": "noun",
+          "m_rich": "이번 호 잡지의 <b>이슈</b>는 환경 <b>문제</b>를 다루고 있다.",
+          "ex": "We need to discuss this _____.",
+          "t": "우리는 이 문제를 논의해야 한다.",
+          "pron": { "en": ["íʃ","uː"], "kr": ["이","슈"] }
+        },
+        {
+          "w": "justify",
+          "m": "정당화하다",
+          "pos": "verb",
+          "m_rich": "<b>저스티스(justice)</b>! 정의로운 이유로 행동을 <b>정당화하다</b>.",
+          "ex": "Nothing can _____ such cruelty.",
+          "t": "어떤 것도 그런 잔인함을 정당화할 수 없다.",
+          "pron": { "en": ["dʒás","tə","fài"], "kr": ["저스","터","파이"] }
+        }
       ]
     },
     {
@@ -146,26 +946,186 @@
       "level": "Intermediate",
       "color": "#6366f1",
       "words": [
-        { "w": "labor", "m": "노동", "pos": "noun", "m_rich": "<b>내일 봐.</b> 우린 지긋지긋한 <b>노동</b>을 하러 가야지.", "ex": "The company uses cheap _____.", "t": "그 회사는 값싼 노동력을 사용한다." },
-        { "w": "legal", "m": "합법적인", "pos": "adjective", "m_rich": "<b>네가</b> 이기려면 <b>합법적인</b> 증거만 사용해야 해.", "ex": "Is it _____ to do that?", "t": "그렇게 하는 것이 합법적인가요?" },
-        { "w": "policy", "m": "정책", "pos": "noun", "m_rich": "<b>팔러 씨</b>! 이 가게의 환불 <b>정책</b>은 어떻게 되나요?", "ex": "What is the company policy on smoking?", "t": "흡연에 대한 회사의 정책은 무엇인가요?" },
-        { "w": "principle", "m": "원칙", "pos": "noun", "m_rich": "<b>프린<small>스</small> <small>는</small> 풀</b>을 먹지 않는다는 <b>원칙</b>이 있다.", "ex": "He is a man of _____.", "t": "그는 원칙의 사람이다." },
-        { "w": "proceed", "m": "나아가다", "pos": "verb", "m_rich": "<b>프로 시드(seed)</b>! 상위 시드 받은 프로 선수가 다음 라운드로 <b>나아가다</b>.", "ex": "Let us _____ with the plan.", "t": "계획대로 진행합시다." },
-        { "w": "process", "m": "과정", "pos": "noun", "m_rich": "<b>프로<small>가</small> 세<small>운</small> 스<small>케줄</small></b>! 이 <b>과정</b>대로만 하면 돼.", "ex": "Learning a new language is a long _____.", "t": "새로운 언어를 배우는 것은 긴 과정이다." },
-        { "w": "sector", "m": "부문", "pos": "noun", "m_rich": "이 <b>색<small>을</small> 터<small>치</small></b>하면 해당 산업 <b>부문</b>으로 이동합니다.", "ex": "He works in the private _____.", "t": "그는 민간 부문에서 일한다." },
-        { "w": "source", "m": "원천", "pos": "noun", "m_rich": "이 문제의 <b>소스</b>는 어디서 났어? <b>원천</b>을 찾아봐.", "ex": "What is the _____ of this information?", "t": "이 정보의 출처는 무엇인가요?" },
-        { "w": "structure", "m": "구조", "pos": "noun", "m_rich": "이 건물의 <b>스트럭처(structure)</b>는 매우 복잡한 <b>구조</b>다.", "ex": "The _____ of the building is very strong.", "t": "그 건물의 구조는 매우 튼튼하다." },
-        { "w": "vary", "m": "다양하다", "pos": "verb", "m_rich": "<b>배리(berry)</b>는 종류에 따라 맛이 <b>다양하다</b>.", "ex": "Prices _____ depending on the season.", "t": "가격은 계절에 따라 다르다." },
-        { "w": "domestic", "m": "국내의", "pos": "adjective", "m_rich": "<b>도<small>둑</small> 막<small>는</small> 스틱</b>은 <b>가정용</b> 필수품이다.", "ex": "The airline serves _____ flights.", "t": "그 항공사는 국내선 항공편을 운항한다." },
-        { "w": "transfer", "m": "옮기다", "pos": "verb", "m_rich": "<b>트랜스포머</b>가 짐을 다른 곳으로 <b>옮기다</b>.", "ex": "I need to _____ to another bus.", "t": "나는 다른 버스로 환승해야 한다." },
-        { "w": "community", "m": "공동체", "pos": "noun", "m_rich": "<b>커뮤니티</b> 게시판은 우리 <b>공동체</b>의 소식통이다.", "ex": "He is well-known in the local _____.", "t": "그는 지역 사회에서 잘 알려져 있다." },
-        { "w": "regulate", "m": "규제하다", "pos": "verb", "m_rich": "<b>내기<small>를</small> 올레<small>길에서</small></b> 못하게 <b>규제하다</b>.", "ex": "The government _____s the price of fuel.", "t": "정부는 유류 가격을 규제한다." },
-        { "w": "strategy", "m": "전략", "pos": "noun", "m_rich": "<b>스트레칭</b>도 경기에서 이기기 위한 중요한 <b>전략</b>이다.", "ex": "We need to develop a new marketing _____.", "t": "우리는 새로운 마케팅 전략을 개발해야 한다." },
-        { "w": "valid", "m": "유효한", "pos": "adjective", "m_rich": "이 티켓은 <b>밸런타인 데이</b>까지만 <b>유효하다</b>.", "ex": "This ticket is _____ for one month.", "t": "이 표는 한 달간 유효하다." },
-        { "w": "contribute", "m": "기여하다", "pos": "verb", "m_rich": "<b>큰 트리<small>를</small> 뷰<small>가 좋은 곳에 심어</small></b> 마을에 <b>기여하다</b>.", "ex": "She _____d a lot to the project.", "t": "그녀는 그 프로젝트에 많은 기여를 했다." },
-        { "w": "preserve", "m": "보전하다", "pos": "verb", "m_rich": "<b>프리<small>저버</small></b>! 냉장고 프리저에 넣어 음식을 <b>보전하다</b>.", "ex": "We must _____ our cultural heritage.", "t": "우리는 문화유산을 보전해야 한다." },
-        { "w": "transform", "m": "변형시키다", "pos": "verb", "m_rich": "<b>트랜스포머</b>가 로봇에서 차로 <b>변형된다</b>.", "ex": "The experience _____ed her life.", "t": "그 경험은 그녀의 삶을 변형시켰다." },
-        { "w": "enhance", "m": "향상시키다", "pos": "verb", "m_rich": "<b>인핸스<small>드</small></b> 필터로 사진을 <b>향상시키다</b>.", "ex": "Music can _____ your mood.", "t": "음악은 당신의 기분을 향상시킬 수 있다." }
+        {
+          "w": "labor",
+          "m": "노동",
+          "pos": "noun",
+          "m_rich": "<b>내일 봐.</b> 우린 지긋지긋한 <b>노동</b>을 하러 가야지.",
+          "ex": "The company uses cheap _____.",
+          "t": "그 회사는 값싼 노동력을 사용한다.",
+          "pron": { "en": ["léi","bər"], "kr": ["레이","버"] }
+        },
+        {
+          "w": "legal",
+          "m": "합법적인",
+          "pos": "adjective",
+          "m_rich": "<b>네가</b> 이기려면 <b>합법적인</b> 증거만 사용해야 해.",
+          "ex": "Is it _____ to do that?",
+          "t": "그렇게 하는 것이 합법적인가요?",
+          "pron": { "en": ["líː","gəl"], "kr": ["리","걸"] }
+        },
+        {
+          "w": "policy",
+          "m": "정책",
+          "pos": "noun",
+          "m_rich": "<b>팔러 씨</b>! 이 가게의 환불 <b>정책</b>은 어떻게 되나요?",
+          "ex": "What is the company policy on smoking?",
+          "t": "흡연에 대한 회사의 정책은 무엇인가요?",
+          "pron": { "en": ["pól","ə","si"], "kr": ["폴","러","시"] }
+        },
+        {
+          "w": "principle",
+          "m": "원칙",
+          "pos": "noun",
+          "m_rich": "<b>프린<small>스</small> <small>는</small> 풀</b>을 먹지 않는다는 <b>원칙</b>이 있다.",
+          "ex": "He is a man of _____.",
+          "t": "그는 원칙의 사람이다.",
+          "pron": { "en": ["prín","sə","pəl"], "kr": ["프린","서","플"] }
+        },
+        {
+          "w": "proceed",
+          "m": "나아가다",
+          "pos": "verb",
+          "m_rich": "<b>프로 시드(seed)</b>! 상위 시드 받은 프로 선수가 다음 라운드로 <b>나아가다</b>.",
+          "ex": "Let us _____ with the plan.",
+          "t": "계획대로 진행합시다.",
+          "pron": { "en": ["prə","síːd"], "kr": ["프러","시드"] }
+        },
+        {
+          "w": "process",
+          "m": "과정",
+          "pos": "noun",
+          "m_rich": "<b>프로<small>가</small> 세<small>운</small> 스<small>케줄</small></b>! 이 <b>과정</b>대로만 하면 돼.",
+          "ex": "Learning a new language is a long _____.",
+          "t": "새로운 언어를 배우는 것은 긴 과정이다.",
+          "pron": { "en": ["prɑ́s","es"], "kr": ["프라","세스"] }
+        },
+        {
+          "w": "sector",
+          "m": "부문",
+          "pos": "noun",
+          "m_rich": "이 <b>색<small>을</small> 터<small>치</small></b>하면 해당 산업 <b>부문</b>으로 이동합니다.",
+          "ex": "He works in the private _____.",
+          "t": "그는 민간 부문에서 일한다.",
+          "pron": { "en": ["sék","tər"], "kr": ["섹","터"] }
+        },
+        {
+          "w": "source",
+          "m": "원천",
+          "pos": "noun",
+          "m_rich": "이 문제의 <b>소스</b>는 어디서 났어? <b>원천</b>을 찾아봐.",
+          "ex": "What is the _____ of this information?",
+          "t": "이 정보의 출처는 무엇인가요?",
+          "pron": { "en": ["sɔ́ːrs"], "kr": ["소스"] }
+        },
+        {
+          "w": "structure",
+          "m": "구조",
+          "pos": "noun",
+          "m_rich": "이 건물의 <b>스트럭처(structure)</b>는 매우 복잡한 <b>구조</b>다.",
+          "ex": "The _____ of the building is very strong.",
+          "t": "그 건물의 구조는 매우 튼튼하다.",
+          "pron": { "en": ["strák","tʃər"], "kr": ["스트럭","처"] }
+        },
+        {
+          "w": "vary",
+          "m": "다양하다",
+          "pos": "verb",
+          "m_rich": "<b>배리(berry)</b>는 종류에 따라 맛이 <b>다양하다</b>.",
+          "ex": "Prices _____ depending on the season.",
+          "t": "가격은 계절에 따라 다르다.",
+          "pron": { "en": ["véər","i"], "kr": ["베어","리"] }
+        },
+        {
+          "w": "domestic",
+          "m": "국내의",
+          "pos": "adjective",
+          "m_rich": "<b>도<small>둑</small> 막<small>는</small> 스틱</b>은 <b>가정용</b> 필수품이다.",
+          "ex": "The airline serves _____ flights.",
+          "t": "그 항공사는 국내선 항공편을 운항한다.",
+          "pron": { "en": ["də","més","tik"], "kr": ["더","메스","틱"] }
+        },
+        {
+          "w": "transfer",
+          "m": "옮기다",
+          "pos": "verb",
+          "m_rich": "<b>트랜스포머</b>가 짐을 다른 곳으로 <b>옮기다</b>.",
+          "ex": "I need to _____ to another bus.",
+          "t": "나는 다른 버스로 환승해야 한다.",
+          "pron": { "en": ["træns","fə́ːr"], "kr": ["트랜스","퍼"] }
+        },
+        {
+          "w": "community",
+          "m": "공동체",
+          "pos": "noun",
+          "m_rich": "<b>커뮤니티</b> 게시판은 우리 <b>공동체</b>의 소식통이다.",
+          "ex": "He is well-known in the local _____.",
+          "t": "그는 지역 사회에서 잘 알려져 있다.",
+          "pron": { "en": ["kə","mjúː","ni","ti"], "kr": ["커","뮤","니","티"] }
+        },
+        {
+          "w": "regulate",
+          "m": "규제하다",
+          "pos": "verb",
+          "m_rich": "<b>내기<small>를</small> 올레<small>길에서</small></b> 못하게 <b>규제하다</b>.",
+          "ex": "The government _____s the price of fuel.",
+          "t": "정부는 유류 가격을 규제한다.",
+          "pron": { "en": ["rég","jə","lèit"], "kr": ["레","귤","레이트"] }
+        },
+        {
+          "w": "strategy",
+          "m": "전략",
+          "pos": "noun",
+          "m_rich": "<b>스트레칭</b>도 경기에서 이기기 위한 중요한 <b>전략</b>이다.",
+          "ex": "We need to develop a new marketing _____.",
+          "t": "우리는 새로운 마케팅 전략을 개발해야 한다.",
+          "pron": { "en": ["stræt","ə","dʒi"], "kr": ["스트랫","어","지"] }
+        },
+        {
+          "w": "valid",
+          "m": "유효한",
+          "pos": "adjective",
+          "m_rich": "이 티켓은 <b>밸런타인 데이</b>까지만 <b>유효하다</b>.",
+          "ex": "This ticket is _____ for one month.",
+          "t": "이 표는 한 달간 유효하다.",
+          "pron": { "en": ["væl","id"], "kr": ["밸","리드"] }
+        },
+        {
+          "w": "contribute",
+          "m": "기여하다",
+          "pos": "verb",
+          "m_rich": "<b>큰 트리<small>를</small> 뷰<small>가 좋은 곳에 심어</small></b> 마을에 <b>기여하다</b>.",
+          "ex": "She _____d a lot to the project.",
+          "t": "그녀는 그 프로젝트에 많은 기여를 했다.",
+          "pron": { "en": ["kən","tríb","juːt"], "kr": ["컨","트리","뷰트"] }
+        },
+        {
+          "w": "preserve",
+          "m": "보전하다",
+          "pos": "verb",
+          "m_rich": "<b>프리<small>저버</small></b>! 냉장고 프리저에 넣어 음식을 <b>보전하다</b>.",
+          "ex": "We must _____ our cultural heritage.",
+          "t": "우리는 문화유산을 보전해야 한다.",
+          "pron": { "en": ["pri","zə́ːrv"], "kr": ["프리","저브"] }
+        },
+        {
+          "w": "transform",
+          "m": "변형시키다",
+          "pos": "verb",
+          "m_rich": "<b>트랜스포머</b>가 로봇에서 차로 <b>변형된다</b>.",
+          "ex": "The experience _____ed her life.",
+          "t": "그 경험은 그녀의 삶을 변형시켰다.",
+          "pron": { "en": ["træns","fɔ́ːrm"], "kr": ["트랜스","폼"] }
+        },
+        {
+          "w": "enhance",
+          "m": "향상시키다",
+          "pos": "verb",
+          "m_rich": "<b>인핸스<small>드</small></b> 필터로 사진을 <b>향상시키다</b>.",
+          "ex": "Music can _____ your mood.",
+          "t": "음악은 당신의 기분을 향상시킬 수 있다.",
+          "pron": { "en": ["in","hǽns"], "kr": ["인","핸스"] }
+        }
       ]
     },
     {
@@ -174,26 +1134,186 @@
       "level": "Advanced",
       "color": "#8b5cf6",
       "words": [
-        { "w": "abundant", "m": "풍부한", "pos": "adjective", "m_rich": "<b>어, 번 돈<small>이</small> 투(2)</b>억! 수입이 정말 <b>풍부하구나</b>.", "ex": "The country has _____ natural resources.", "t": "그 나라는 천연자원이 풍부하다." },
-        { "w": "manipulate", "m": "조종하다", "pos": "verb", "m_rich": "<b>마니(money)<small>로</small> 풀<small>어</small>내<small>서</small></b> 여론을 <b>조종하다</b>.", "ex": "He knows how to _____ people.", "t": "그는 사람들을 조종하는 법을 안다." },
-        { "w": "legitimate", "m": "합법적인", "pos": "adjective", "m_rich": "<b>내 집 터<small>에</small> 메이트</b>를 들이는 건 <b>합법적이다</b>.", "ex": "He has a _____ claim to the property.", "t": "그는 그 재산에 대한 정당한 권리를 가지고 있다." },
-        { "w": "vulnerable", "m": "취약한", "pos": "adjective", "m_rich": "<b>벌 너러블</b>! 벌에 쏘여 너덜너덜해지니 <b>취약해졌다</b>.", "ex": "Babies are _____ to diseases.", "t": "아기들은 질병에 취약하다." },
-        { "w": "implement", "m": "시행하다", "pos": "verb", "m_rich": "<b>임<small>금</small> 플<small>랜</small> 먼<small>저</small></b> <b>시행합시다</b>!", "ex": "The government will _____ the new policy.", "t": "정부는 새로운 정책을 시행할 것이다." },
-        { "w": "ambiguous", "m": "모호한", "pos": "adjective", "m_rich": "<b>앰비<small>가</small> 규<small>격에 안 맞</small>아</b> 용도가 <b>모호하다</b>.", "ex": "His answer was very _____.", "t": "그의 대답은 매우 모호했다." },
-        { "w": "inevitable", "m": "불가피한", "pos": "adjective", "m_rich": "<b>이 내(인애) 비터블(비틀)</b>! 비틀거리니 넘어지는 건 <b>불가피하다</b>.", "ex": "Change is _____.", "t": "변화는 불가피하다." },
-        { "w": "provoke", "m": "자극하다", "pos": "verb", "m_rich": "<b>프로<small>를</small> 복<small>날</small></b> <b>자극해서</b> 화나게 하다.", "ex": "Do not _____ the dog.", "t": "개를 자극하지 마라." },
-        { "w": "contemplate", "m": "심사숙고하다", "pos": "verb", "m_rich": "<b>큰 템플(절)</b>에서 <b>에이트(8)</b>일 동안 인생을 <b>심사숙고하다</b>.", "ex": "I am _____ing a change of career.", "t": "나는 이직을 심사숙고하고 있다." },
-        { "w": "eradicate", "m": "근절하다", "pos": "verb", "m_rich": "<b>이래<small>도</small> 뒤<small>를</small> 캐서</b> 부패를 <b>근절하다</b>.", "ex": "We must _____ poverty.", "t": "우리는 가난을 근절해야 한다." },
-        { "w": "deteriorate", "m": "악화되다", "pos": "verb", "m_rich": "<b>뒤<small>에</small> 티어<small>가</small> 리얼<small>하게</small></b> 나는 걸 보니 상황이 <b>악화되었다</b>.", "ex": "His health has _____d.", "t": "그의 건강이 악화되었다." },
-        { "w": "facilitate", "m": "용이하게 하다", "pos": "verb", "m_rich": "<b>패스<small>를</small> 실리<small>콘밸리</small> 게이트</b>로 만들어 출입을 <b>용이하게 하다</b>.", "ex": "The new system will _____ communication.", "t": "새로운 시스템은 의사소통을 용이하게 할 것이다." },
-        { "w": "ostentatious", "m": "과시하는", "pos": "adjective", "m_rich": "<b>오, 스텐<small>으로 된</small> 테이블</b>이라니! 너무 <b>과시하는</b> 거 아니야?", "ex": "She wore an _____ diamond necklace.", "t": "그녀는 과시적인 다이아몬드 목걸이를 하고 있었다." },
-        { "w": "alleviate", "m": "완화시키다", "pos": "verb", "m_rich": "<b>알리<small>가</small> 비 에이트(8)</b>! 알리가 나비처럼 8번 만에 고통을 <b>완화시켜주다</b>.", "ex": "This medicine will _____ your pain.", "t": "이 약은 당신의 고통을 완화시켜 줄 것이다." },
-        { "w": "arbitrary", "m": "임의적인", "pos": "adjective", "m_rich": "<b>아, 비틀어리!</b> 내 팔을 <b>제멋대로</b> 비틀다니!", "ex": "The choice of winner seemed _____.", "t": "우승자 선택은 임의적인 것처럼 보였다." },
-        { "w": "elaborate", "m": "정교한", "pos": "adjective", "m_rich": "<b>이래서 레이트(late)</b>! 작품을 <b>정교하게</b> 만드느라 늦었군.", "ex": "Can you _____ on that point?", "t": "그 점에 대해 좀 더 상세히 설명해 주시겠어요?" },
-        { "w": "fluctuate", "m": "변동하다", "pos": "verb", "m_rich": "<b>플럭<small>이</small> 추<small>위에</small></b> 에이트(8)자로 <b>변동하며</b> 떨다.", "ex": "The price of gold _____s daily.", "t": "금값은 매일 변동한다." },
-        { "w": "indigenous", "m": "토착의", "pos": "adjective", "m_rich": "<b>인디<small>언이</small> 지<small>키는</small> 너<small>른</small> 스<small>프</small></b>! 이 지역 <b>토착의</b> 음식이다.", "ex": "The _____ people of Australia are called Aborigines.", "t": "호주의 토착민은 애버리진이라고 불린다." },
-        { "w": "proliferate", "m": "급증하다", "pos": "verb", "m_rich": "<b>프로<small>가</small> 리퍼<small>를</small> 네이트(late)</b> 밤늦게까지 하니 조회수가 <b>급증하다</b>.", "ex": "Rumors about him _____d on the internet.", "t": "그에 대한 소문이 인터넷에 급증했다." },
-        { "w": "scrutinize", "m": "면밀히 조사하다", "pos": "verb", "m_rich": "<b>스크루<small>바를</small> 티<small>나게</small></b> 먹은 아이를 눈으로 <b>면밀히 조사하다</b>.", "ex": "He _____d the document carefully.", "t": "그는 그 문서를 면밀히 조사했다." }
+        {
+          "w": "abundant",
+          "m": "풍부한",
+          "pos": "adjective",
+          "m_rich": "<b>어, 번 돈<small>이</small> 투(2)</b>억! 수입이 정말 <b>풍부하구나</b>.",
+          "ex": "The country has _____ natural resources.",
+          "t": "그 나라는 천연자원이 풍부하다.",
+          "pron": { "en": ["ə","bán","dənt"], "kr": ["어","번","던트"] }
+        },
+        {
+          "w": "manipulate",
+          "m": "조종하다",
+          "pos": "verb",
+          "m_rich": "<b>마니(money)<small>로</small> 풀<small>어</small>내<small>서</small></b> 여론을 <b>조종하다</b>.",
+          "ex": "He knows how to _____ people.",
+          "t": "그는 사람들을 조종하는 법을 안다.",
+          "pron": { "en": ["mə","níp","jə","lèit"], "kr": ["머","닙","퓨","레이트"] }
+        },
+        {
+          "w": "legitimate",
+          "m": "합법적인",
+          "pos": "adjective",
+          "m_rich": "<b>내 집 터<small>에</small> 메이트</b>를 들이는 건 <b>합법적이다</b>.",
+          "ex": "He has a _____ claim to the property.",
+          "t": "그는 그 재산에 대한 정당한 권리를 가지고 있다.",
+          "pron": { "en": ["li","dʒít","ə","mət"], "kr": ["리","짓","터","밋"] }
+        },
+        {
+          "w": "vulnerable",
+          "m": "취약한",
+          "pos": "adjective",
+          "m_rich": "<b>벌 너러블</b>! 벌에 쏘여 너덜너덜해지니 <b>취약해졌다</b>.",
+          "ex": "Babies are _____ to diseases.",
+          "t": "아기들은 질병에 취약하다.",
+          "pron": { "en": ["vál","nər","ə","bəl"], "kr": ["벌","너","러","블"] }
+        },
+        {
+          "w": "implement",
+          "m": "시행하다",
+          "pos": "verb",
+          "m_rich": "<b>임<small>금</small> 플<small>랜</small> 먼<small>저</small></b> <b>시행합시다</b>!",
+          "ex": "The government will _____ the new policy.",
+          "t": "정부는 새로운 정책을 시행할 것이다.",
+          "pron": { "en": ["ím","plə","ment"], "kr": ["임","플러","멘트"] }
+        },
+        {
+          "w": "ambiguous",
+          "m": "모호한",
+          "pos": "adjective",
+          "m_rich": "<b>앰비<small>가</small> 규<small>격에 안 맞</small>아</b> 용도가 <b>모호하다</b>.",
+          "ex": "His answer was very _____.",
+          "t": "그의 대답은 매우 모호했다.",
+          "pron": { "en": ["æm","bíg","ju","əs"], "kr": ["앰","비","규","어스"] }
+        },
+        {
+          "w": "inevitable",
+          "m": "불가피한",
+          "pos": "adjective",
+          "m_rich": "<b>이 내(인애) 비터블(비틀)</b>! 비틀거리니 넘어지는 건 <b>불가피하다</b>.",
+          "ex": "Change is _____.",
+          "t": "변화는 불가피하다.",
+          "pron": { "en": ["in","év","i","tə","bəl"], "kr": ["인","에","비","터","블"] }
+        },
+        {
+          "w": "provoke",
+          "m": "자극하다",
+          "pos": "verb",
+          "m_rich": "<b>프로<small>를</small> 복<small>날</small></b> <b>자극해서</b> 화나게 하다.",
+          "ex": "Do not _____ the dog.",
+          "t": "개를 자극하지 마라.",
+          "pron": { "en": ["prə","vóuk"], "kr": ["프러","보크"] }
+        },
+        {
+          "w": "contemplate",
+          "m": "심사숙고하다",
+          "pos": "verb",
+          "m_rich": "<b>큰 템플(절)</b>에서 <b>에이트(8)</b>일 동안 인생을 <b>심사숙고하다</b>.",
+          "ex": "I am _____ing a change of career.",
+          "t": "나는 이직을 심사숙고하고 있다.",
+          "pron": { "en": ["kón","tem","plèit"], "kr": ["콘","템","플레이트"] }
+        },
+        {
+          "w": "eradicate",
+          "m": "근절하다",
+          "pos": "verb",
+          "m_rich": "<b>이래<small>도</small> 뒤<small>를</small> 캐서</b> 부패를 <b>근절하다</b>.",
+          "ex": "We must _____ poverty.",
+          "t": "우리는 가난을 근절해야 한다.",
+          "pron": { "en": ["i","ræd","i","kèit"], "kr": ["이","래","디","케이트"] }
+        },
+        {
+          "w": "deteriorate",
+          "m": "악화되다",
+          "pos": "verb",
+          "m_rich": "<b>뒤<small>에</small> 티어<small>가</small> 리얼<small>하게</small></b> 나는 걸 보니 상황이 <b>악화되었다</b>.",
+          "ex": "His health has _____d.",
+          "t": "그의 건강이 악화되었다.",
+          "pron": { "en": ["di","tíər","i","ə","rèit"], "kr": ["디","티어","리","어","레이트"] }
+        },
+        {
+          "w": "facilitate",
+          "m": "용이하게 하다",
+          "pos": "verb",
+          "m_rich": "<b>패스<small>를</small> 실리<small>콘밸리</small> 게이트</b>로 만들어 출입을 <b>용이하게 하다</b>.",
+          "ex": "The new system will _____ communication.",
+          "t": "새로운 시스템은 의사소통을 용이하게 할 것이다.",
+          "pron": { "en": ["fə","síl","i","tèit"], "kr": ["퍼","실","리","테이트"] }
+        },
+        {
+          "w": "ostentatious",
+          "m": "과시하는",
+          "pos": "adjective",
+          "m_rich": "<b>오, 스텐<small>으로 된</small> 테이블</b>이라니! 너무 <b>과시하는</b> 거 아니야?",
+          "ex": "She wore an _____ diamond necklace.",
+          "t": "그녀는 과시적인 다이아몬드 목걸이를 하고 있었다.",
+          "pron": { "en": ["ɑs","ten","téi","ʃəs"], "kr": ["오스","텐","테이","셔스"] }
+        },
+        {
+          "w": "alleviate",
+          "m": "완화시키다",
+          "pos": "verb",
+          "m_rich": "<b>알리<small>가</small> 비 에이트(8)</b>! 알리가 나비처럼 8번 만에 고통을 <b>완화시켜주다</b>.",
+          "ex": "This medicine will _____ your pain.",
+          "t": "이 약은 당신의 고통을 완화시켜 줄 것이다.",
+          "pron": { "en": ["ə","líː","vi","èit"], "kr": ["어","리","비","에이트"] }
+        },
+        {
+          "w": "arbitrary",
+          "m": "임의적인",
+          "pos": "adjective",
+          "m_rich": "<b>아, 비틀어리!</b> 내 팔을 <b>제멋대로</b> 비틀다니!",
+          "ex": "The choice of winner seemed _____.",
+          "t": "우승자 선택은 임의적인 것처럼 보였다.",
+          "pron": { "en": ["ɑ́ːr","bi","trèri"], "kr": ["아","비","트레리"] }
+        },
+        {
+          "w": "elaborate",
+          "m": "정교한",
+          "pos": "adjective",
+          "m_rich": "<b>이래서 레이트(late)</b>! 작품을 <b>정교하게</b> 만드느라 늦었군.",
+          "ex": "Can you _____ on that point?",
+          "t": "그 점에 대해 좀 더 상세히 설명해 주시겠어요?",
+          "pron": { "en": ["i","læb","ə","rət"], "kr": ["이","랩","어","릿"] }
+        },
+        {
+          "w": "fluctuate",
+          "m": "변동하다",
+          "pos": "verb",
+          "m_rich": "<b>플럭<small>이</small> 추<small>위에</small></b> 에이트(8)자로 <b>변동하며</b> 떨다.",
+          "ex": "The price of gold _____s daily.",
+          "t": "금값은 매일 변동한다.",
+          "pron": { "en": ["flák","tʃu","èit"], "kr": ["플럭","츄","에이트"] }
+        },
+        {
+          "w": "indigenous",
+          "m": "토착의",
+          "pos": "adjective",
+          "m_rich": "<b>인디<small>언이</small> 지<small>키는</small> 너<small>른</small> 스<small>프</small></b>! 이 지역 <b>토착의</b> 음식이다.",
+          "ex": "The _____ people of Australia are called Aborigines.",
+          "t": "호주의 토착민은 애버리진이라고 불린다.",
+          "pron": { "en": ["in","díd","ʒə","nəs"], "kr": ["인","디","저","너스"] }
+        },
+        {
+          "w": "proliferate",
+          "m": "급증하다",
+          "pos": "verb",
+          "m_rich": "<b>프로<small>가</small> 리퍼<small>를</small> 네이트(late)</b> 밤늦게까지 하니 조회수가 <b>급증하다</b>.",
+          "ex": "Rumors about him _____d on the internet.",
+          "t": "그에 대한 소문이 인터넷에 급증했다.",
+          "pron": { "en": ["prə","líf","ə","rèit"], "kr": ["프러","리","퍼","레이트"] }
+        },
+        {
+          "w": "scrutinize",
+          "m": "면밀히 조사하다",
+          "pos": "verb",
+          "m_rich": "<b>스크루<small>바를</small> 티<small>나게</small></b> 먹은 아이를 눈으로 <b>면밀히 조사하다</b>.",
+          "ex": "He _____d the document carefully.",
+          "t": "그는 그 문서를 면밀히 조사했다.",
+          "pron": { "en": ["skrúː","tə","nàiz"], "kr": ["스크루","티","나이즈"] }
+        }
       ]
     },
     {
@@ -202,26 +1322,186 @@
       "level": "Advanced",
       "color": "#8b5cf6",
       "words": [
-        { "w": "empirical", "m": "실증적인", "pos": "adjective", "m_rich": "<b>임<small>상시험에</small> 피<small>를</small> 리<small>얼하게</small> 컬<small>렉팅</small></b>하는 것은 <b>실증적인</b> 연구다.", "ex": "We have _____ evidence that the treatment works.", "t": "우리는 그 치료법이 효과가 있다는 실증적인 증거를 가지고 있다." },
-        { "w": "paradigm", "m": "패러다임", "pos": "noun", "m_rich": "<b>패러<small>글라이딩으로</small> 타임</b> 여행을 하는 새로운 <b>패러다임</b>.", "ex": "This discovery will shift the _____ of physics.", "t": "이 발견은 물리학의 패러다임을 바꿀 것이다." },
-        { "w": "anonymous", "m": "익명의", "pos": "adjective", "m_rich": "<b>어, 나<small>니</small> 머<small>리</small> 쓰<small>다듬는 사람</small>?</b> <b>익명</b>이라 누군지 모르겠네.", "ex": "The donation was made by an _____ donor.", "t": "그 기부는 익명의 기부자에 의해 이루어졌다." },
-        { "w": "meticulous", "m": "꼼꼼한", "pos": "adjective", "m_rich": "<b>미<small>세한</small> 티끌<small>을</small></b> 하나도 남기지 않는 <b>꼼꼼한</b> 성격.", "ex": "She is _____ in her work.", "t": "그녀는 일에 있어서 꼼꼼하다." },
-        { "w": "synthesis", "m": "종합", "pos": "noun", "m_rich": "<b>신<small>이</small> 시<small>키는</small></b> 대로 여러 아이디어를 <b>종합하다</b>.", "ex": "The book is a _____ of many different ideas.", "t": "그 책은 많은 다른 아이디어들의 종합이다." },
-        { "w": "transient", "m": "일시적인", "pos": "adjective", "m_rich": "<b>트랜지<small>션</small> 언<small>제 끝나</small>?</b> 이 효과는 <b>일시적이야</b>.", "ex": "The happiness was _____.", "t": "그 행복은 일시적이었다." },
-        { "w": "ubiquitous", "m": "어디에나 있는", "pos": "adjective", "m_rich": "<b>유<small>리</small> 비<small>가</small></b> 스마트폰처럼 <b>어디에나 있다</b>.", "ex": "Smartphones are _____ these days.", "t": "요즘 스마트폰은 어디에나 있다." },
-        { "w": "validate", "m": "입증하다", "pos": "verb", "m_rich": "<b>밸리<small>댄서가</small> 데이트</b> 신청을 수락하여 내 매력을 <b>입증했다</b>.", "ex": "You need to _____ your email address.", "t": "당신은 이메일 주소를 인증해야 합니다." },
-        { "w": "criterion", "m": "기준", "pos": "noun", "m_rich": "<b>크라이<small>하는</small> 테리<small>어는</small> 온<small>리</small></b> 탈락이라는 <b>기준</b>이 있다.", "ex": "What is the _____ for selection?", "t": "선발 기준은 무엇인가요?" },
-        { "w": "deduce", "m": "추론하다", "pos": "verb", "m_rich": "<b>디<small>테일한</small> 듀스</b>! 듀스의 노래 가사로 그들의 생각을 <b>추론하다</b>.", "ex": "From his silence I _____d that he was angry.", "t": "그의 침묵으로부터 나는 그가 화났다고 추론했다." },
-        { "w": "exploit", "m": "이용하다", "pos": "verb", "m_rich": "<b>익스<small>프레스</small> 플<small>로</small></b>! 빠른 길을 <b>이용해서</b> 남들을 앞지르다.", "ex": "The company _____s its workers.", "t": "그 회사는 노동자들을 착취한다." },
-        { "w": "leverage", "m": "활용하다", "pos": "verb", "m_rich": "<b>레버<small>를</small> 리지</b>! 지렛대를 <b>활용하여</b> 무거운 돌을 들다.", "ex": "We can _____ our brand to enter new markets.", "t": "우리는 새로운 시장에 진입하기 위해 우리 브랜드를 활용할 수 있다." },
-        { "w": "paradox", "m": "역설", "pos": "noun", "m_rich": "<b>패러독스(개)</b>! 이 개는 고양이처럼 행동하는 <b>역설</b>적인 존재다.", "ex": "It is a _____ that there can be poverty in a rich country.", "t": "부유한 나라에 가난이 있을 수 있다는 것은 역설이다." },
-        { "w": "resilient", "m": "회복력 있는", "pos": "adjective", "m_rich": "<b>네<small>가</small> 질리언<small>트</small></b>! 죽어도 다시 살아나는 <b>회복력</b>.", "ex": "Children are often very _____.", "t": "아이들은 종종 매우 회복력이 좋다." },
-        { "w": "subtle", "m": "미묘한", "pos": "adjective", "m_rich": "<b>써<small>놓고</small> 틀<small>린 걸</small></b> 아무도 모를 만큼 <b>미묘한</b> 차이.", "ex": "There is a _____ difference between the two.", "t": "그 둘 사이에는 미묘한 차이가 있다." },
-        { "w": "violate", "m": "위반하다", "pos": "verb", "m_rich": "<b>바이올렛</b> 색깔 옷만 입으라니, 규칙을 <b>위반하고</b> 싶어!", "ex": "He _____d the terms of the contract.", "t": "그는 계약 조건을 위반했다." },
-        { "w": "ambivalent", "m": "양면적인", "pos": "adjective", "m_rich": "<b>앰비<small>는</small> 밸런스</b>가 안 맞아. 좋으면서도 싫은 <b>상반된 감정</b>이 들어.", "ex": "I feel _____ about moving to a new city.", "t": "나는 새로운 도시로 이사 가는 것에 대해 상반된 감정을 느낀다." },
-        { "w": "concede", "m": "인정하다", "pos": "verb", "m_rich": "<b>큰 시드</b>를 받은 상대의 실력을 <b>인정하고</b> 패배를 받아들이다.", "ex": "He finally _____d that he was wrong.", "t": "그는 마침내 자신이 틀렸음을 인정했다." },
-        { "w": "implication", "m": "함의", "pos": "noun", "m_rich": "<b>임<small>박한</small> 플<small>리케이션</small></b>! 이 결정의 <b>함의</b>가 무엇인지 생각해봐.", "ex": "The _____s of this decision are serious.", "t": "이 결정의 함의는 심각하다." },
-        { "w": "consensus", "m": "합의", "pos": "noun", "m_rich": "<b>큰 센서<small>스</small></b>! 모두의 센서가 같은 방향을 가리켜 <b>합의</b>에 이르다.", "ex": "There is a general _____ on this issue.", "t": "이 문제에 대한 일반적인 합의가 있다." }
+        {
+          "w": "empirical",
+          "m": "실증적인",
+          "pos": "adjective",
+          "m_rich": "<b>임<small>상시험에</small> 피<small>를</small> 리<small>얼하게</small> 컬<small>렉팅</small></b>하는 것은 <b>실증적인</b> 연구다.",
+          "ex": "We have _____ evidence that the treatment works.",
+          "t": "우리는 그 치료법이 효과가 있다는 실증적인 증거를 가지고 있다.",
+          "pron": { "en": ["em","pír","i","kəl"], "kr": ["엠","피","리","컬"] }
+        },
+        {
+          "w": "paradigm",
+          "m": "패러다임",
+          "pos": "noun",
+          "m_rich": "<b>패러<small>글라이딩으로</small> 타임</b> 여행을 하는 새로운 <b>패러다임</b>.",
+          "ex": "This discovery will shift the _____ of physics.",
+          "t": "이 발견은 물리학의 패러다임을 바꿀 것이다.",
+          "pron": { "en": ["pær","ə","dàim"], "kr": ["패","러","다임"] }
+        },
+        {
+          "w": "anonymous",
+          "m": "익명의",
+          "pos": "adjective",
+          "m_rich": "<b>어, 나<small>니</small> 머<small>리</small> 쓰<small>다듬는 사람</small>?</b> <b>익명</b>이라 누군지 모르겠네.",
+          "ex": "The donation was made by an _____ donor.",
+          "t": "그 기부는 익명의 기부자에 의해 이루어졌다.",
+          "pron": { "en": ["ə","nón","ə","məs"], "kr": ["어","나","너","머스"] }
+        },
+        {
+          "w": "meticulous",
+          "m": "꼼꼼한",
+          "pos": "adjective",
+          "m_rich": "<b>미<small>세한</small> 티끌<small>을</small></b> 하나도 남기지 않는 <b>꼼꼼한</b> 성격.",
+          "ex": "She is _____ in her work.",
+          "t": "그녀는 일에 있어서 꼼꼼하다.",
+          "pron": { "en": ["mə","tík","jə","ləs"], "kr": ["머","티","큘","러스"] }
+        },
+        {
+          "w": "synthesis",
+          "m": "종합",
+          "pos": "noun",
+          "m_rich": "<b>신<small>이</small> 시<small>키는</small></b> 대로 여러 아이디어를 <b>종합하다</b>.",
+          "ex": "The book is a _____ of many different ideas.",
+          "t": "그 책은 많은 다른 아이디어들의 종합이다.",
+          "pron": { "en": ["sín","θə","sis"], "kr": ["신","써","시스"] }
+        },
+        {
+          "w": "transient",
+          "m": "일시적인",
+          "pos": "adjective",
+          "m_rich": "<b>트랜지<small>션</small> 언<small>제 끝나</small>?</b> 이 효과는 <b>일시적이야</b>.",
+          "ex": "The happiness was _____.",
+          "t": "그 행복은 일시적이었다.",
+          "pron": { "en": ["træn","ziənt"], "kr": ["트랜","지언트"] }
+        },
+        {
+          "w": "ubiquitous",
+          "m": "어디에나 있는",
+          "pos": "adjective",
+          "m_rich": "<b>유<small>리</small> 비<small>가</small></b> 스마트폰처럼 <b>어디에나 있다</b>.",
+          "ex": "Smartphones are _____ these days.",
+          "t": "요즘 스마트폰은 어디에나 있다.",
+          "pron": { "en": ["juː","bík","wi","təs"], "kr": ["유","비","퀴","터스"] }
+        },
+        {
+          "w": "validate",
+          "m": "입증하다",
+          "pos": "verb",
+          "m_rich": "<b>밸리<small>댄서가</small> 데이트</b> 신청을 수락하여 내 매력을 <b>입증했다</b>.",
+          "ex": "You need to _____ your email address.",
+          "t": "당신은 이메일 주소를 인증해야 합니다.",
+          "pron": { "en": ["væl","i","dèit"], "kr": ["밸","리","데이트"] }
+        },
+        {
+          "w": "criterion",
+          "m": "기준",
+          "pos": "noun",
+          "m_rich": "<b>크라이<small>하는</small> 테리<small>어는</small> 온<small>리</small></b> 탈락이라는 <b>기준</b>이 있다.",
+          "ex": "What is the _____ for selection?",
+          "t": "선발 기준은 무엇인가요?",
+          "pron": { "en": ["krai","tíər","i","ən"], "kr": ["크라이","티어","리","언"] }
+        },
+        {
+          "w": "deduce",
+          "m": "추론하다",
+          "pos": "verb",
+          "m_rich": "<b>디<small>테일한</small> 듀스</b>! 듀스의 노래 가사로 그들의 생각을 <b>추론하다</b>.",
+          "ex": "From his silence I _____d that he was angry.",
+          "t": "그의 침묵으로부터 나는 그가 화났다고 추론했다.",
+          "pron": { "en": ["di","djúːs"], "kr": ["디","듀스"] }
+        },
+        {
+          "w": "exploit",
+          "m": "이용하다",
+          "pos": "verb",
+          "m_rich": "<b>익스<small>프레스</small> 플<small>로</small></b>! 빠른 길을 <b>이용해서</b> 남들을 앞지르다.",
+          "ex": "The company _____s its workers.",
+          "t": "그 회사는 노동자들을 착취한다.",
+          "pron": { "en": ["ik","splɔ́it"], "kr": ["익","스플로이트"] }
+        },
+        {
+          "w": "leverage",
+          "m": "활용하다",
+          "pos": "verb",
+          "m_rich": "<b>레버<small>를</small> 리지</b>! 지렛대를 <b>활용하여</b> 무거운 돌을 들다.",
+          "ex": "We can _____ our brand to enter new markets.",
+          "t": "우리는 새로운 시장에 진입하기 위해 우리 브랜드를 활용할 수 있다.",
+          "pron": { "en": ["lev","ər","idʒ"], "kr": ["레","버","리지"] }
+        },
+        {
+          "w": "paradox",
+          "m": "역설",
+          "pos": "noun",
+          "m_rich": "<b>패러독스(개)</b>! 이 개는 고양이처럼 행동하는 <b>역설</b>적인 존재다.",
+          "ex": "It is a _____ that there can be poverty in a rich country.",
+          "t": "부유한 나라에 가난이 있을 수 있다는 것은 역설이다.",
+          "pron": { "en": ["pær","ə","dɑks"], "kr": ["패","러","독스"] }
+        },
+        {
+          "w": "resilient",
+          "m": "회복력 있는",
+          "pos": "adjective",
+          "m_rich": "<b>네<small>가</small> 질리언<small>트</small></b>! 죽어도 다시 살아나는 <b>회복력</b>.",
+          "ex": "Children are often very _____.",
+          "t": "아이들은 종종 매우 회복력이 좋다.",
+          "pron": { "en": ["ri","zíl","iənt"], "kr": ["리","질","리언트"] }
+        },
+        {
+          "w": "subtle",
+          "m": "미묘한",
+          "pos": "adjective",
+          "m_rich": "<b>써<small>놓고</small> 틀<small>린 걸</small></b> 아무도 모를 만큼 <b>미묘한</b> 차이.",
+          "ex": "There is a _____ difference between the two.",
+          "t": "그 둘 사이에는 미묘한 차이가 있다.",
+          "pron": { "en": ["sát","l"], "kr": ["서","틀"] }
+        },
+        {
+          "w": "violate",
+          "m": "위반하다",
+          "pos": "verb",
+          "m_rich": "<b>바이올렛</b> 색깔 옷만 입으라니, 규칙을 <b>위반하고</b> 싶어!",
+          "ex": "He _____d the terms of the contract.",
+          "t": "그는 계약 조건을 위반했다.",
+          "pron": { "en": ["vái","ə","lèit"], "kr": ["바이","어","레이트"] }
+        },
+        {
+          "w": "ambivalent",
+          "m": "양면적인",
+          "pos": "adjective",
+          "m_rich": "<b>앰비<small>는</small> 밸런스</b>가 안 맞아. 좋으면서도 싫은 <b>상반된 감정</b>이 들어.",
+          "ex": "I feel _____ about moving to a new city.",
+          "t": "나는 새로운 도시로 이사 가는 것에 대해 상반된 감정을 느낀다.",
+          "pron": { "en": ["æm","bív","ə","lənt"], "kr": ["앰","비","벌","런트"] }
+        },
+        {
+          "w": "concede",
+          "m": "인정하다",
+          "pos": "verb",
+          "m_rich": "<b>큰 시드</b>를 받은 상대의 실력을 <b>인정하고</b> 패배를 받아들이다.",
+          "ex": "He finally _____d that he was wrong.",
+          "t": "그는 마침내 자신이 틀렸음을 인정했다.",
+          "pron": { "en": ["kən","síːd"], "kr": ["컨","시드"] }
+        },
+        {
+          "w": "implication",
+          "m": "함의",
+          "pos": "noun",
+          "m_rich": "<b>임<small>박한</small> 플<small>리케이션</small></b>! 이 결정의 <b>함의</b>가 무엇인지 생각해봐.",
+          "ex": "The _____s of this decision are serious.",
+          "t": "이 결정의 함의는 심각하다.",
+          "pron": { "en": ["im","pli","kéi","ʃən"], "kr": ["임","플리","케이","션"] }
+        },
+        {
+          "w": "consensus",
+          "m": "합의",
+          "pos": "noun",
+          "m_rich": "<b>큰 센서<small>스</small></b>! 모두의 센서가 같은 방향을 가리켜 <b>합의</b>에 이르다.",
+          "ex": "There is a general _____ on this issue.",
+          "t": "이 문제에 대한 일반적인 합의가 있다.",
+          "pron": { "en": ["kən","sén","səs"], "kr": ["컨","센","서스"] }
+        }
       ]
     },
     {
@@ -230,26 +1510,186 @@
       "level": "Advanced",
       "color": "#8b5cf6",
       "words": [
-        { "w": "conjecture", "m": "추측", "pos": "noun", "m_rich": "<b>큰 잭<small>팟이</small> 저<small>기 있을 거라는</small></b> <b>추측</b>만으로 땅을 파다.", "ex": "That is just _____ not a fact.", "t": "그것은 사실이 아니라 단지 추측일 뿐이다." },
-        { "w": "eloquent", "m": "설득력 있는", "pos": "adjective", "m_rich": "<b>일로 와봐, 퀀트</b>! 내가 너를 <b>설득력 있게</b> 가르쳐주마.", "ex": "She gave an _____ speech.", "t": "그녀는 설득력 있는 연설을 했다." },
-        { "w": "imminent", "m": "임박한", "pos": "adjective", "m_rich": "<b>이미 넌<small>센스</small></b> 퀴즈의 정답 발표가 <b>임박했다</b>.", "ex": "A storm is _____.", "t": "폭풍이 임박했다." },
-        { "w": "irrefutable", "m": "반박할 수 없는", "pos": "adjective", "m_rich": "<b>이래<small>도</small> 피<small>할</small> 테이블<small>이냐</small>?</b> CCTV 영상은 <b>반박할 수 없는</b> 증거다.", "ex": "There is _____ proof of his guilt.", "t": "그의 유죄에 대한 반박할 수 없는 증거가 있다." },
-        { "w": "lucrative", "m": "수익성이 좋은", "pos": "adjective", "m_rich": "<b>루크<small>가</small> 네이티브</b>처럼 영어를 하니 <b>수익성이 좋은</b> 사업이 되다.", "ex": "He has a _____ business.", "t": "그는 수익성이 좋은 사업을 하고 있다." },
-        { "w": "obsolete", "m": "구식의", "pos": "adjective", "m_rich": "<b>업<small>데이트 안 된</small></b> 솔루션은 <b>에이트(8)</b>년 만에 <b>구식</b>이 되다.", "ex": "This technology is now _____.", "t": "이 기술은 이제 구식이다." },
-        { "w": "pervasive", "m": "만연하는", "pos": "adjective", "m_rich": "<b>퍼<small>퓸을</small> 베이<small>에</small> 시브<small>게</small></b> 뿌리니 향기가 온 방에 <b>만연하다</b>.", "ex": "The influence of TV is _____.", "t": "TV의 영향력은 만연해 있다." },
-        { "w": "pragmatic", "m": "실용적인", "pos": "adjective", "m_rich": "<b>풀어<small>도</small> 안 풀리면</b> 더 <b>실용적인</b> 방법을 찾자.", "ex": "We need a _____ approach to the problem.", "t": "우리는 그 문제에 대해 실용적인 접근이 필요하다." },
-        { "w": "precedent", "m": "선례", "pos": "noun", "m_rich": "<b>프레지던트</b>의 결정은 다음 대통령에게 중요한 <b>선례</b>가 된다.", "ex": "There is no _____ for such a case.", "t": "그런 경우에 대한 선례가 없다." },
-        { "w": "profound", "m": "심오한", "pos": "adjective", "m_rich": "<b>프로<small>가</small> 파운드</b>! 깊이 파서 <b>심오한</b> 진리를 발견하다.", "ex": "His speech had a _____ effect on me.", "t": "그의 연설은 나에게 심오한 영향을 미쳤다." },
-        { "w": "reconcile", "m": "화해시키다", "pos": "verb", "m_rich": "<b>네<small>가</small> 큰 사일로</b>! 둘 사이 장벽을 허물고 <b>화해시키다</b>.", "ex": "It is difficult to _____ these two ideas.", "t": "이 두 아이디어를 조화시키기는 어렵다." },
-        { "w": "superfluous", "m": "불필요한", "pos": "adjective", "m_rich": "<b>슈퍼<small>맨이</small> 플루<small>트를</small></b> 선물로? <b>불필요한</b> 선물이야!", "ex": "Cut out the _____ words.", "t": "불필요한 단어들은 빼세요." },
-        { "w": "tacit", "m": "암묵적인", "pos": "adjective", "m_rich": "<b>택시<small>를</small> 잇<small>따라</small></b> 타는 것은 집에 가자는 <b>암묵적인</b> 동의다.", "ex": "We have a _____ agreement.", "t": "우리는 암묵적인 합의를 했다." },
-        { "w": "tenuous", "m": "미약한", "pos": "adjective", "m_rich": "<b>테니스</b> 줄처럼 <b>미약하게</b> 이어진 관계.", "ex": "He has a _____ claim to the throne.", "t": "그는 왕위에 대한 미약한 권리를 가지고 있다." },
-        { "w": "veracity", "m": "진실성", "pos": "noun", "m_rich": "<b>봐라, 시티<small>에</small></b>! 저 빌딩이 진짜 다이아몬드인지 <b>진실성</b>을 확인해보자.", "ex": "We question the _____ of his story.", "t": "우리는 그의 이야기의 진실성에 의문을 제기한다." },
-        { "w": "anomaly", "m": "이례적인 것", "pos": "noun", "m_rich": "<b>아, 노말<small>하지 않</small>니?</b> 펭귄이 사막에 있는 건 <b>이례적이야</b>.", "ex": "This result is an _____.", "t": "이 결과는 이례적인 것이다." },
-        { "w": "ephemeral", "m": "덧없는", "pos": "adjective", "m_rich": "<b>이<small>른</small> 패<small>션은</small> 머<small>리를</small> 얼얼하게</b> 만들지만 <b>덧없이</b> 사라진다.", "ex": "Fame is _____.", "t": "명성은 덧없는 것이다." },
-        { "w": "innate", "m": "타고난", "pos": "adjective", "m_rich": "<b>이 네이트<small>는</small></b> 태어날 때부터 <b>타고난</b> 재능이 있다.", "ex": "She has an _____ ability to learn languages.", "t": "그녀는 언어를 배우는 타고난 능력이 있다." },
-        { "w": "accelerate", "m": "가속하다", "pos": "verb", "m_rich": "<b>액셀<small>을</small> 러<small>레이팅</small></b> 밟으니 차가 <b>가속한다</b>.", "ex": "Climate change is _____ing.", "t": "기후 변화가 가속하고 있다." },
-        { "w": "perceive", "m": "인식하다", "pos": "verb", "m_rich": "<b>퍼<small>져</small> 씨<small>브</small>(보이는)</b>! 멀리서도 뚜렷하게 <b>인식하다</b>.", "ex": "How do you _____ the problem?", "t": "당신은 그 문제를 어떻게 인식하나요?" }
+        {
+          "w": "conjecture",
+          "m": "추측",
+          "pos": "noun",
+          "m_rich": "<b>큰 잭<small>팟이</small> 저<small>기 있을 거라는</small></b> <b>추측</b>만으로 땅을 파다.",
+          "ex": "That is just _____ not a fact.",
+          "t": "그것은 사실이 아니라 단지 추측일 뿐이다.",
+          "pron": { "en": ["kən","dʒék","tʃər"], "kr": ["컨","젝","처"] }
+        },
+        {
+          "w": "eloquent",
+          "m": "설득력 있는",
+          "pos": "adjective",
+          "m_rich": "<b>일로 와봐, 퀀트</b>! 내가 너를 <b>설득력 있게</b> 가르쳐주마.",
+          "ex": "She gave an _____ speech.",
+          "t": "그녀는 설득력 있는 연설을 했다.",
+          "pron": { "en": ["él","ə","kwənt"], "kr": ["엘","러","퀀트"] }
+        },
+        {
+          "w": "imminent",
+          "m": "임박한",
+          "pos": "adjective",
+          "m_rich": "<b>이미 넌<small>센스</small></b> 퀴즈의 정답 발표가 <b>임박했다</b>.",
+          "ex": "A storm is _____.",
+          "t": "폭풍이 임박했다.",
+          "pron": { "en": ["ím","i","nənt"], "kr": ["이","미","넌트"] }
+        },
+        {
+          "w": "irrefutable",
+          "m": "반박할 수 없는",
+          "pos": "adjective",
+          "m_rich": "<b>이래<small>도</small> 피<small>할</small> 테이블<small>이냐</small>?</b> CCTV 영상은 <b>반박할 수 없는</b> 증거다.",
+          "ex": "There is _____ proof of his guilt.",
+          "t": "그의 유죄에 대한 반박할 수 없는 증거가 있다.",
+          "pron": { "en": ["i","ref","jə","tə","bəl"], "kr": ["이","레","퓨","터","블"] }
+        },
+        {
+          "w": "lucrative",
+          "m": "수익성이 좋은",
+          "pos": "adjective",
+          "m_rich": "<b>루크<small>가</small> 네이티브</b>처럼 영어를 하니 <b>수익성이 좋은</b> 사업이 되다.",
+          "ex": "He has a _____ business.",
+          "t": "그는 수익성이 좋은 사업을 하고 있다.",
+          "pron": { "en": ["lúː","krə","tiv"], "kr": ["루","크러","티브"] }
+        },
+        {
+          "w": "obsolete",
+          "m": "구식의",
+          "pos": "adjective",
+          "m_rich": "<b>업<small>데이트 안 된</small></b> 솔루션은 <b>에이트(8)</b>년 만에 <b>구식</b>이 되다.",
+          "ex": "This technology is now _____.",
+          "t": "이 기술은 이제 구식이다.",
+          "pron": { "en": ["ɑb","sə","líːt"], "kr": ["압","서","리트"] }
+        },
+        {
+          "w": "pervasive",
+          "m": "만연하는",
+          "pos": "adjective",
+          "m_rich": "<b>퍼<small>퓸을</small> 베이<small>에</small> 시브<small>게</small></b> 뿌리니 향기가 온 방에 <b>만연하다</b>.",
+          "ex": "The influence of TV is _____.",
+          "t": "TV의 영향력은 만연해 있다.",
+          "pron": { "en": ["pər","véi","siv"], "kr": ["퍼","베이","시브"] }
+        },
+        {
+          "w": "pragmatic",
+          "m": "실용적인",
+          "pos": "adjective",
+          "m_rich": "<b>풀어<small>도</small> 안 풀리면</b> 더 <b>실용적인</b> 방법을 찾자.",
+          "ex": "We need a _____ approach to the problem.",
+          "t": "우리는 그 문제에 대해 실용적인 접근이 필요하다.",
+          "pron": { "en": ["præg","mæt","ik"], "kr": ["프래그","매","틱"] }
+        },
+        {
+          "w": "precedent",
+          "m": "선례",
+          "pos": "noun",
+          "m_rich": "<b>프레지던트</b>의 결정은 다음 대통령에게 중요한 <b>선례</b>가 된다.",
+          "ex": "There is no _____ for such a case.",
+          "t": "그런 경우에 대한 선례가 없다.",
+          "pron": { "en": ["prés","i","dənt"], "kr": ["프레","시","던트"] }
+        },
+        {
+          "w": "profound",
+          "m": "심오한",
+          "pos": "adjective",
+          "m_rich": "<b>프로<small>가</small> 파운드</b>! 깊이 파서 <b>심오한</b> 진리를 발견하다.",
+          "ex": "His speech had a _____ effect on me.",
+          "t": "그의 연설은 나에게 심오한 영향을 미쳤다.",
+          "pron": { "en": ["prə","fáund"], "kr": ["프러","파운드"] }
+        },
+        {
+          "w": "reconcile",
+          "m": "화해시키다",
+          "pos": "verb",
+          "m_rich": "<b>네<small>가</small> 큰 사일로</b>! 둘 사이 장벽을 허물고 <b>화해시키다</b>.",
+          "ex": "It is difficult to _____ these two ideas.",
+          "t": "이 두 아이디어를 조화시키기는 어렵다.",
+          "pron": { "en": ["rek","ən","sàil"], "kr": ["레","컨","사일"] }
+        },
+        {
+          "w": "superfluous",
+          "m": "불필요한",
+          "pos": "adjective",
+          "m_rich": "<b>슈퍼<small>맨이</small> 플루<small>트를</small></b> 선물로? <b>불필요한</b> 선물이야!",
+          "ex": "Cut out the _____ words.",
+          "t": "불필요한 단어들은 빼세요.",
+          "pron": { "en": ["suː","pə́ːr","flu","əs"], "kr": ["수","퍼","플루","어스"] }
+        },
+        {
+          "w": "tacit",
+          "m": "암묵적인",
+          "pos": "adjective",
+          "m_rich": "<b>택시<small>를</small> 잇<small>따라</small></b> 타는 것은 집에 가자는 <b>암묵적인</b> 동의다.",
+          "ex": "We have a _____ agreement.",
+          "t": "우리는 암묵적인 합의를 했다.",
+          "pron": { "en": ["tǽs","it"], "kr": ["태","싯"] }
+        },
+        {
+          "w": "tenuous",
+          "m": "미약한",
+          "pos": "adjective",
+          "m_rich": "<b>테니스</b> 줄처럼 <b>미약하게</b> 이어진 관계.",
+          "ex": "He has a _____ claim to the throne.",
+          "t": "그는 왕위에 대한 미약한 권리를 가지고 있다.",
+          "pron": { "en": ["tén","ju","əs"], "kr": ["테","뉴","어스"] }
+        },
+        {
+          "w": "veracity",
+          "m": "진실성",
+          "pos": "noun",
+          "m_rich": "<b>봐라, 시티<small>에</small></b>! 저 빌딩이 진짜 다이아몬드인지 <b>진실성</b>을 확인해보자.",
+          "ex": "We question the _____ of his story.",
+          "t": "우리는 그의 이야기의 진실성에 의문을 제기한다.",
+          "pron": { "en": ["və","ræs","i","ti"], "kr": ["버","래","시","티"] }
+        },
+        {
+          "w": "anomaly",
+          "m": "이례적인 것",
+          "pos": "noun",
+          "m_rich": "<b>아, 노말<small>하지 않</small>니?</b> 펭귄이 사막에 있는 건 <b>이례적이야</b>.",
+          "ex": "This result is an _____.",
+          "t": "이 결과는 이례적인 것이다.",
+          "pron": { "en": ["ə","nóm","ə","li"], "kr": ["어","나","머","리"] }
+        },
+        {
+          "w": "ephemeral",
+          "m": "덧없는",
+          "pos": "adjective",
+          "m_rich": "<b>이<small>른</small> 패<small>션은</small> 머<small>리를</small> 얼얼하게</b> 만들지만 <b>덧없이</b> 사라진다.",
+          "ex": "Fame is _____.",
+          "t": "명성은 덧없는 것이다.",
+          "pron": { "en": ["i","fém","ər","əl"], "kr": ["이","페","머","럴"] }
+        },
+        {
+          "w": "innate",
+          "m": "타고난",
+          "pos": "adjective",
+          "m_rich": "<b>이 네이트<small>는</small></b> 태어날 때부터 <b>타고난</b> 재능이 있다.",
+          "ex": "She has an _____ ability to learn languages.",
+          "t": "그녀는 언어를 배우는 타고난 능력이 있다.",
+          "pron": { "en": ["i","néit"], "kr": ["이","네이트"] }
+        },
+        {
+          "w": "accelerate",
+          "m": "가속하다",
+          "pos": "verb",
+          "m_rich": "<b>액셀<small>을</small> 러<small>레이팅</small></b> 밟으니 차가 <b>가속한다</b>.",
+          "ex": "Climate change is _____ing.",
+          "t": "기후 변화가 가속하고 있다.",
+          "pron": { "en": ["æk","sél","ə","rèit"], "kr": ["액","셀","러","레이트"] }
+        },
+        {
+          "w": "perceive",
+          "m": "인식하다",
+          "pos": "verb",
+          "m_rich": "<b>퍼<small>져</small> 씨<small>브</small>(보이는)</b>! 멀리서도 뚜렷하게 <b>인식하다</b>.",
+          "ex": "How do you _____ the problem?",
+          "t": "당신은 그 문제를 어떻게 인식하나요?",
+          "pron": { "en": ["pər","síːv"], "kr": ["퍼","시브"] }
+        }
       ]
     }
   ]
