@@ -1,112 +1,103 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>단어 틴더 📚</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>WordSwipe</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-  <!-- ──────────────────────────────────────
-       화면 1: 세트 선택 화면
-  ────────────────────────────────────── -->
+  <!-- ================================
+    화면 1: 세트 선택
+  ================================ -->
   <div id="screen-home" class="screen active">
-
-    <div class="home-header">
-      <h1 class="logo">📚 WordSwipe</h1>
-      <p class="logo-sub">수능 영단어 스와이프 학습</p>
+    <div class="home-top">
+      <div class="home-logo">📚 WordSwipe</div>
+      <div class="home-sub">수능 영단어 스와이프 학습</div>
     </div>
-
-    <div class="set-list" id="set-list">
-      <!-- JavaScript로 세트 카드들이 여기에 생성됨 -->
-    </div>
-
+    <div class="home-sets" id="home-sets"></div>
   </div>
 
-  <!-- ──────────────────────────────────────
-       화면 2: 스와이프 학습 화면
-  ────────────────────────────────────── -->
+  <!-- ================================
+    화면 2: 스와이프
+  ================================ -->
   <div id="screen-swipe" class="screen">
 
-    <!-- 상단 헤더 -->
-    <div class="swipe-header">
-      <button class="btn-back" id="btn-back">←</button>
-      <div class="swipe-title" id="swipe-title">초급 단어 1</div>
-      <div class="swipe-progress" id="swipe-progress">1 / 20</div>
-    </div>
-
-    <!-- 진행 바 -->
-    <div class="progress-bar-wrap">
-      <div class="progress-bar-fill" id="progress-bar-fill"></div>
-    </div>
-
-    <!-- 카드 스택 영역 -->
-    <div class="card-stack" id="card-stack">
-      <!-- JavaScript로 카드들이 여기에 생성됨 -->
-    </div>
-
-    <!-- 도장 오버레이 (드래그할 때 나타남) -->
-    <div class="stamp stamp-know"  id="stamp-know">KNOW ✅</div>
-    <div class="stamp stamp-again" id="stamp-again">AGAIN 🔄</div>
-    <div class="stamp stamp-star"  id="stamp-star">STAR ⭐</div>
-
-    <!-- 하단 버튼 3개 -->
-    <div class="action-buttons">
-      <button class="action-btn btn-again" id="btn-again" title="다시 볼게요">
-        <span class="btn-icon">🔄</span>
-        <span class="btn-label">Again</span>
+    <!-- 상단 바 -->
+    <div class="top-bar">
+      <button class="top-btn" id="btn-back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 5l-7 7 7 7"/>
+        </svg>
       </button>
-      <button class="action-btn btn-star" id="btn-star" title="즐겨찾기">
-        <span class="btn-icon">⭐</span>
-        <span class="btn-label">Star</span>
+      <div class="top-title" id="top-title">초급 단어 1</div>
+      <div class="top-progress" id="top-progress">1/20</div>
+    </div>
+
+    <!-- 진행바 -->
+    <div class="prog-wrap">
+      <div class="prog-fill" id="prog-fill"></div>
+    </div>
+
+    <!-- 카드 영역 -->
+    <div class="cards-area" id="cards-area"></div>
+
+    <!-- LIKE / NOPE / STAR 도장 -->
+    <div class="stamp s-like"  id="s-like">KNOW</div>
+    <div class="stamp s-nope"  id="s-nope">NOPE</div>
+    <div class="stamp s-star"  id="s-star">STAR</div>
+
+    <!-- 하단 버튼 -->
+    <div class="bot-btns">
+      <button class="cir-btn cir-nope"  id="btn-nope">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#ff4458" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6"  y1="6" x2="18" y2="18"/>
+        </svg>
       </button>
-      <button class="action-btn btn-know" id="btn-know" title="알았어요">
-        <span class="btn-icon">✅</span>
-        <span class="btn-label">Know</span>
+      <button class="cir-btn cir-star"  id="btn-star">
+        <svg viewBox="0 0 24 24" fill="#00d4ff" stroke="none">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+        </svg>
+      </button>
+      <button class="cir-btn cir-know"  id="btn-know">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+        </svg>
       </button>
     </div>
 
   </div>
 
-  <!-- ──────────────────────────────────────
-       화면 3: 결과 화면
-  ────────────────────────────────────── -->
+  <!-- ================================
+    화면 3: 결과
+  ================================ -->
   <div id="screen-result" class="screen">
-
-    <div class="result-header">
+    <div class="result-wrap">
       <div class="result-emoji">🎉</div>
-      <h2 class="result-title">학습 완료!</h2>
-      <p class="result-sub" id="result-set-name"></p>
-    </div>
-
-    <div class="result-stats">
-      <div class="stat-card stat-know">
-        <div class="stat-icon">✅</div>
-        <div class="stat-num" id="stat-know">0</div>
-        <div class="stat-label">알았어요</div>
+      <div class="result-title">학습 완료!</div>
+      <div class="result-setname" id="result-setname"></div>
+      <div class="result-cards">
+        <div class="result-card rc-know">
+          <div class="rc-icon">✅</div>
+          <div class="rc-num" id="rc-know">0</div>
+          <div class="rc-label">알았어요</div>
+        </div>
+        <div class="result-card rc-nope">
+          <div class="rc-icon">🔄</div>
+          <div class="rc-num" id="rc-nope">0</div>
+          <div class="rc-label">다시볼게요</div>
+        </div>
+        <div class="result-card rc-star">
+          <div class="rc-icon">⭐</div>
+          <div class="rc-num" id="rc-star">0</div>
+          <div class="rc-label">즐겨찾기</div>
+        </div>
       </div>
-      <div class="stat-card stat-again">
-        <div class="stat-icon">🔄</div>
-        <div class="stat-num" id="stat-again">0</div>
-        <div class="stat-label">다시 볼게요</div>
-      </div>
-      <div class="stat-card stat-star">
-        <div class="stat-icon">⭐</div>
-        <div class="stat-num" id="stat-star">0</div>
-        <div class="stat-label">즐겨찾기</div>
-      </div>
+      <button class="res-btn res-retry" id="btn-retry">🔄 틀린 것만 다시</button>
+      <button class="res-btn res-home"  id="btn-home">🏠 홈으로</button>
     </div>
-
-    <div class="result-buttons">
-      <button class="result-btn btn-retry" id="btn-retry">
-        🔄 틀린 것만 다시
-      </button>
-      <button class="result-btn btn-home" id="btn-home">
-        🏠 세트 선택으로
-      </button>
-    </div>
-
   </div>
 
   <script src="app.js"></script>
