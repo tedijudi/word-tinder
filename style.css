@@ -1,0 +1,607 @@
+/* ================================================
+   기본 리셋 & 전체 설정
+================================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
+  background: #f5f5f5;
+}
+
+/* ================================================
+   화면 전환 시스템
+================================================ */
+.screen {
+  position: fixed;
+  inset: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen.active {
+  display: flex;
+}
+
+/* ================================================
+   화면 1: 홈 (세트 선택)
+================================================ */
+#screen-home {
+  background: #fff;
+  overflow-y: auto;
+  padding-bottom: 40px;
+}
+
+.home-header {
+  width: 100%;
+  padding: 60px 24px 32px;
+  background: linear-gradient(135deg, #ff4458, #ff6b6b);
+  text-align: center;
+  color: #fff;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.logo-sub {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.set-list {
+  width: 100%;
+  max-width: 480px;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 세트 선택 카드 */
+.set-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  border: 2px solid transparent;
+}
+
+.set-card:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.set-badge {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.set-info {
+  flex: 1;
+}
+
+.set-name {
+  font-size: 17px;
+  font-weight: 700;
+  color: #222;
+}
+
+.set-level {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.set-count {
+  font-size: 13px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.set-arrow {
+  font-size: 20px;
+  color: #ccc;
+}
+
+/* ================================================
+   화면 2: 스와이프 학습
+================================================ */
+#screen-swipe {
+  background: #f0f0f0;
+  position: relative;
+}
+
+/* 상단 헤더 */
+.swipe-header {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 20px 12px;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+  z-index: 10;
+}
+
+.btn-back {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #555;
+  padding: 4px 8px;
+}
+
+.swipe-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+}
+
+.swipe-progress {
+  font-size: 14px;
+  color: #999;
+  font-weight: 600;
+}
+
+/* 진행 바 */
+.progress-bar-wrap {
+  width: 100%;
+  max-width: 480px;
+  height: 4px;
+  background: #e0e0e0;
+  z-index: 10;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff4458, #ff6b6b);
+  transition: width 0.3s ease;
+  width: 0%;
+}
+
+/* 카드 스택 */
+.card-stack {
+  flex: 1;
+  width: 100%;
+  max-width: 480px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 0;
+}
+
+/* ──── 단어 카드 ──── */
+.word-card {
+  position: absolute;
+  width: calc(100% - 40px);
+  max-width: 400px;
+  min-height: 460px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+  cursor: grab;
+  user-select: none;
+  transform-origin: center bottom;
+  transition: box-shadow 0.2s;
+  /* 카드 뒤집기를 위한 3D 설정 */
+  perspective: 1000px;
+}
+
+.word-card:active {
+  cursor: grabbing;
+}
+
+/* 뒤에 쌓인 카드들 */
+.word-card.stack-1 {
+  transform: scale(0.96) translateY(10px);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.word-card.stack-2 {
+  transform: scale(0.92) translateY(20px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* 현재 카드 */
+.word-card.top-card {
+  z-index: 5;
+}
+
+/* 카드 내부: 앞/뒷면 플립 구조 */
+.card-inner {
+  width: 100%;
+  height: 100%;
+  min-height: 460px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 24px;
+}
+
+.card-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+/* 앞면 */
+.card-front,
+.card-back {
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background: #fff;
+}
+
+/* 카드 상단 뱃지 영역 */
+.card-badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-pos {
+  background: #64748b;
+}
+
+.badge-level-basic        { background: #10b981; }
+.badge-level-intermediate { background: #6366f1; }
+.badge-level-advanced     { background: #8b5cf6; }
+
+/* 카드 앞면: 단어 */
+.card-word {
+  font-size: 52px;
+  font-weight: 900;
+  color: #111;
+  letter-spacing: -2px;
+  line-height: 1.1;
+  margin-bottom: 12px;
+  word-break: break-word;
+}
+
+.card-word-small {
+  font-size: 38px;
+}
+
+/* 카드 앞면: 힌트 */
+.card-hint {
+  margin-top: auto;
+  text-align: center;
+  color: #bbb;
+  font-size: 13px;
+  padding-top: 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.card-hint span {
+  display: inline-block;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0);   }
+  50%       { transform: translateY(-4px); }
+}
+
+/* 카드 뒷면 */
+.card-meaning {
+  font-size: 32px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 16px;
+}
+
+.card-mnemonic {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  border-left: 3px solid #ff4458;
+}
+
+.card-mnemonic b {
+  color: #ff4458;
+  font-weight: 800;
+}
+
+.card-mnemonic small {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.card-divider {
+  height: 1px;
+  background: #f0f0f0;
+  margin: 12px 0;
+}
+
+.card-example {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.card-translation {
+  font-size: 13px;
+  color: #999;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+/* ================================================
+   도장 (KNOW / AGAIN / STAR)
+================================================ */
+.stamp {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%) scale(0) rotate(-15deg);
+  font-size: 28px;
+  font-weight: 900;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 4px solid;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 100;
+  transition: opacity 0.1s;
+  letter-spacing: 1px;
+}
+
+.stamp-know {
+  left: 24px;
+  color: #10b981;
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.08);
+  transform: translateY(-50%) scale(0) rotate(-15deg);
+}
+
+.stamp-again {
+  right: 24px;
+  color: #ff4458;
+  border-color: #ff4458;
+  background: rgba(255, 68, 88, 0.08);
+  transform: translateY(-50%) scale(0) rotate(15deg);
+}
+
+.stamp-star {
+  left: 50%;
+  bottom: 180px;
+  top: auto;
+  transform: translateX(-50%) scale(0);
+  color: #f59e0b;
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+}
+
+/* ================================================
+   하단 액션 버튼 3개
+================================================ */
+.action-buttons {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 24px 36px;
+  background: transparent;
+}
+
+.action-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.action-btn:active {
+  transform: scale(0.9) !important;
+}
+
+/* Again 버튼 (작은 빨강) */
+.btn-again {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+}
+
+.btn-again .btn-icon { font-size: 24px; }
+.btn-again .btn-label { font-size: 9px; color: #ff4458; font-weight: 700; }
+
+/* Star 버튼 (중간 파랑) */
+.btn-star {
+  width: 56px;
+  height: 56px;
+  background: #fff;
+}
+
+.btn-star .btn-icon { font-size: 22px; }
+.btn-star .btn-label { font-size: 9px; color: #f59e0b; font-weight: 700; }
+
+/* Know 버튼 (큰 초록) */
+.btn-know {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+}
+
+.btn-know .btn-icon { font-size: 24px; }
+.btn-know .btn-label { font-size: 9px; color: #10b981; font-weight: 700; }
+
+/* 호버 효과 */
+.btn-again:hover { transform: scale(1.1); box-shadow: 0 6px 20px rgba(255,68,88,0.3); }
+.btn-star:hover  { transform: scale(1.1); box-shadow: 0 6px 20px rgba(245,158,11,0.3); }
+.btn-know:hover  { transform: scale(1.1); box-shadow: 0 6px 20px rgba(16,185,129,0.3); }
+
+/* ================================================
+   화면 3: 결과 화면
+================================================ */
+#screen-result {
+  background: #fff;
+  justify-content: center;
+  padding: 40px 24px;
+  gap: 32px;
+}
+
+.result-header {
+  text-align: center;
+}
+
+.result-emoji {
+  font-size: 72px;
+  margin-bottom: 16px;
+  animation: pop 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes pop {
+  0%   { transform: scale(0); }
+  70%  { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.result-title {
+  font-size: 28px;
+  font-weight: 900;
+  color: #111;
+}
+
+.result-sub {
+  font-size: 15px;
+  color: #999;
+  margin-top: 8px;
+}
+
+/* 통계 카드 3개 */
+.result-stats {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.stat-card {
+  flex: 1;
+  border-radius: 20px;
+  padding: 20px 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.stat-know  { background: rgba(16, 185, 129, 0.1); }
+.stat-again { background: rgba(255, 68, 88, 0.1);  }
+.stat-star  { background: rgba(245, 158, 11, 0.1); }
+
+.stat-icon  { font-size: 28px; }
+.stat-num   { font-size: 36px; font-weight: 900; color: #111; }
+.stat-label { font-size: 12px; color: #777; font-weight: 600; }
+
+/* 결과 버튼들 */
+.result-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.result-btn {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.result-btn:active {
+  transform: scale(0.97);
+  opacity: 0.85;
+}
+
+.btn-retry {
+  background: linear-gradient(135deg, #ff4458, #ff6b6b);
+  color: #fff;
+}
+
+.btn-home {
+  background: #f5f5f5;
+  color: #555;
+}
+
+/* ================================================
+   드래그 중 카드 색상 변화
+================================================ */
+.card-dragging-right .card-front {
+  background: linear-gradient(135deg, #fff 60%, rgba(16,185,129,0.08));
+}
+
+.card-dragging-left .card-front {
+  background: linear-gradient(135deg, rgba(255,68,88,0.08), #fff 40%);
+}
+
+.card-dragging-up .card-front {
+  background: linear-gradient(180deg, rgba(245,158,11,0.08), #fff 40%);
+}
