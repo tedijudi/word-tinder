@@ -10,32 +10,27 @@ let results      = { know: [], nope: [], star: [] };
 let currentSetName = '';
 
 // 드래그 상태
-let dragging  = false;
-let startX    = 0, startY    = 0;
-let nowX      = 0, nowY      = 0;
-let topCard   = null;
+let dragging = false;
+let startX   = 0, startY = 0;
+let nowX     = 0, nowY   = 0;
+let topCard  = null;
 
 // ── DOM ───────────────────────────────────────
 const $ = id => document.getElementById(id);
 
-const sHome   = $('screen-home');
-const sSwipe  = $('screen-swipe');
-const sResult = $('screen-result');
-
-const homeSets   = $('home-sets');
-const cardsArea  = $('cards-area');
-const topTitle   = $('top-title');
-const topProg    = $('top-progress');
-const progFill   = $('prog-fill');
-
-const sLike  = $('s-like');
-const sNope  = $('s-nope');
-const sStar  = $('s-star');
-
-const rcKnow = $('rc-know');
-const rcNope = $('rc-nope');
-const rcStar = $('rc-star');
+const cardsArea     = $('cards-area');
+const topTitle      = $('top-title');
+const topProg       = $('top-progress');
+const progFill      = $('prog-fill');
+const sKnow         = $('s-know');
+const sNope         = $('s-nope');
+const sStar         = $('s-star');
+const rcKnow        = $('rc-know');
+const rcNope        = $('rc-nope');
+const rcStar        = $('rc-star');
 const resultSetname = $('result-setname');
+const hintLeft      = document.querySelector('.hint-left');
+const hintRight     = document.querySelector('.hint-right');
 
 // ================================================
 // 초기화
@@ -56,9 +51,14 @@ async function init() {
 // 홈 렌더링
 // ================================================
 function renderHome() {
+  const homeSets = $('home-sets');
   homeSets.innerHTML = '';
 
-  const emoji = { Basic: '🟢', Intermediate: '🔵', Advanced: '🟣' };
+  const emoji = {
+    Basic:        '🟢',
+    Intermediate: '🔵',
+    Advanced:     '🟣'
+  };
 
   allSets.forEach(set => {
     const el = document.createElement('div');
@@ -103,7 +103,6 @@ function renderCards() {
   const count = Math.min(3, currentWords.length - currentIdx);
   if (count <= 0) return;
 
-  // 뒤에서부터 쌓기
   for (let i = count - 1; i >= 0; i--) {
     const word = currentWords[currentIdx + i];
     if (!word) continue;
@@ -141,9 +140,13 @@ function makeCard(word) {
   }[word.level] || 'bg-basic';
 
   // 품사 한글
-  const posKr = { noun:'명사', verb:'동사', adjective:'형용사' };
+  const posKr = {
+    noun:      '명사',
+    verb:      '동사',
+    adjective: '형용사'
+  };
 
-  // 뱃지 레벨 클래스
+  // 레벨 뱃지 클래스
   const lvClass = {
     Basic:        'badge-lv-basic',
     Intermediate: 'badge-lv-intermediate',
@@ -152,11 +155,14 @@ function makeCard(word) {
 
   // 단어 길이별 폰트
   const wLen = word.w.length;
-  const wordSizeClass = wLen > 13 ? 'xs' : wLen > 9 ? 'sm' : '';
+  const wordSize = wLen > 13 ? 'xs' : wLen > 9 ? 'sm' : '';
 
   // 예문 빈칸 강조
-  const exFormatted = word.ex.replace(/_____/g,
-    '<span style="color:#fd3a6a;font-weight:800;font-style:normal">_____</span>'
+  const exFront = word.ex.replace(/_____/g,
+    `<span style="color:#ffd93d;font-weight:800;font-style:normal">_____</span>`
+  );
+  const exBack = word.ex.replace(/_____/g,
+    `<span class="back-ex-blank">_____</span>`
   );
 
   card.innerHTML = `
@@ -164,37 +170,57 @@ function makeCard(word) {
 
       <!-- 앞면 -->
       <div class="card-front ${bgClass}">
-        <div class="deco-circle deco-1"></div>
-        <div class="deco-circle deco-2"></div>
 
-        <div class="front-top">
-          <span class="badge badge-pos">${posKr[word.pos] || word.pos}</span>
-          <span class="badge ${lvClass}">${word.level}</span>
+        <!-- 장식 원 -->
+        <div class="deco deco-a"></div>
+        <div class="deco deco-b"></div>
+        <div class="deco deco-c"></div>
+
+        <!-- 상단: 뱃지 + 연상법 -->
+        <div class="front-mnemonic-area">
+          <div class="front-badge-row">
+            <span class="badge badge-pos">${posKr[word.pos] || word.pos}</span>
+            <span class="badge ${lvClass}">${word.level}</span>
+          </div>
+          <div class="front-mnemonic-box">
+            <div class="front-mnemonic-text">${word.m_rich}</div>
+          </div>
         </div>
 
-        <div class="front-body">
-          <div class="front-word ${wordSizeClass}">${word.w}</div>
+        <!-- 중앙: 영단어 -->
+        <div class="front-center">
+          <div class="front-word ${wordSize}">${word.w}</div>
         </div>
 
+        <!-- 하단: 예문 -->
         <div class="front-bottom">
-          <div class="front-ex">${exFormatted}</div>
+          <div class="front-ex">${exFront}</div>
           <div class="front-hint">탭하여 뜻 확인 👆</div>
         </div>
+
       </div>
 
       <!-- 뒷면 -->
       <div class="card-back">
-        <div class="back-top">
-          <span class="badge badge-pos">${posKr[word.pos] || word.pos}</span>
-          <span class="badge ${lvClass}">${word.level}</span>
+
+        <div class="back-badge-row">
+          <span class="back-badge-pos">${posKr[word.pos] || word.pos}</span>
         </div>
+
+        <div class="back-word">${word.w}</div>
         <div class="back-meaning">${word.m}</div>
-        <div class="back-word-small">${word.w}</div>
-        <div class="back-mnemonic">${word.m_rich}</div>
+
         <div class="back-divider"></div>
-        <div class="back-ex">${exFormatted}</div>
+
+        <div class="back-ex-label">예문</div>
+        <div class="back-ex">${exBack}</div>
         <div class="back-tr">${word.t}</div>
-        <div class="back-hint">스와이프하여 다음으로 →</div>
+
+        <div class="back-swipe-hint">
+          <span class="back-hint-nope">← 몰라요</span>
+          <span class="back-hint-know">알아요 →</span>
+        </div>
+
       </div>
 
     </div>
@@ -204,7 +230,7 @@ function makeCard(word) {
   card.addEventListener('click', e => {
     const dx = Math.abs(nowX - startX);
     const dy = Math.abs(nowY - startY);
-    if (dx > 8 || dy > 8) return; // 드래그면 무시
+    if (dx > 8 || dy > 8) return;
     card.querySelector('.card-inner').classList.toggle('flipped');
   });
 
@@ -212,7 +238,7 @@ function makeCard(word) {
 }
 
 // ================================================
-// 드래그 바인딩
+// 드래그
 // ================================================
 function bindDrag(card) {
   card.addEventListener('mousedown',  dragStart);
@@ -221,18 +247,18 @@ function bindDrag(card) {
 
 function dragStart(e) {
   dragging = true;
-  const p = e.touches ? e.touches[0] : e;
-  startX = nowX = p.clientX;
-  startY = nowY = p.clientY;
+  const p  = e.touches ? e.touches[0] : e;
+  startX   = nowX = p.clientX;
+  startY   = nowY = p.clientY;
 
   topCard = cardsArea.querySelector('.wcard.top');
   if (!topCard) return;
   topCard.style.transition = 'none';
 
-  document.addEventListener('mousemove',  dragMove);
-  document.addEventListener('touchmove',  dragMove, { passive: true });
-  document.addEventListener('mouseup',    dragEnd);
-  document.addEventListener('touchend',   dragEnd);
+  document.addEventListener('mousemove', dragMove);
+  document.addEventListener('touchmove', dragMove, { passive: true });
+  document.addEventListener('mouseup',   dragEnd);
+  document.addEventListener('touchend',  dragEnd);
 }
 
 function dragMove(e) {
@@ -241,30 +267,37 @@ function dragMove(e) {
   nowX = p.clientX;
   nowY = p.clientY;
 
-  const dx = nowX - startX;
-  const dy = nowY - startY;
-
-  // 카드 이동 + 회전
+  const dx  = nowX - startX;
+  const dy  = nowY - startY;
   const rot = dx * 0.07;
+
   topCard.style.transform = `translate(${dx}px, ${dy}px) rotate(${rot}deg)`;
 
-  // 도장 & 색조
-  const TH = 55;
+  // 글로우 & 도장 & 힌트
+  const TH = 50;
   hideStamps();
-  topCard.classList.remove('dragging-right','dragging-left','dragging-up');
+  topCard.classList.remove('glow-know', 'glow-nope', 'glow-star');
+
+  // 힌트 밝기 초기화
+  hintLeft.style.opacity  = '0.5';
+  hintRight.style.opacity = '0.5';
 
   if (dx > TH) {
     const v = Math.min((dx - TH) / 80, 1);
-    showStamp('like', v);
-    topCard.classList.add('dragging-right');
+    topCard.classList.add('glow-know');
+    showStamp('know', v);
+    hintRight.style.opacity = '1';
+
   } else if (dx < -TH) {
     const v = Math.min((-dx - TH) / 80, 1);
+    topCard.classList.add('glow-nope');
     showStamp('nope', v);
-    topCard.classList.add('dragging-left');
+    hintLeft.style.opacity = '1';
+
   } else if (dy < -TH) {
     const v = Math.min((-dy - TH) / 80, 1);
+    topCard.classList.add('glow-star');
     showStamp('star', v);
-    topCard.classList.add('dragging-up');
   }
 }
 
@@ -272,17 +305,19 @@ function dragEnd() {
   if (!dragging || !topCard) return;
   dragging = false;
 
-  document.removeEventListener('mousemove',  dragMove);
-  document.removeEventListener('touchmove',  dragMove);
-  document.removeEventListener('mouseup',    dragEnd);
-  document.removeEventListener('touchend',   dragEnd);
+  document.removeEventListener('mousemove', dragMove);
+  document.removeEventListener('touchmove', dragMove);
+  document.removeEventListener('mouseup',   dragEnd);
+  document.removeEventListener('touchend',  dragEnd);
 
   const dx = nowX - startX;
   const dy = nowY - startY;
   const TH = 100;
 
-  topCard.classList.remove('dragging-right','dragging-left','dragging-up');
+  topCard.classList.remove('glow-know', 'glow-nope', 'glow-star');
   hideStamps();
+  hintLeft.style.opacity  = '0.5';
+  hintRight.style.opacity = '0.5';
 
   if      (dx >  TH) flyOut('right');
   else if (dx < -TH) flyOut('left');
@@ -300,18 +335,28 @@ function flyOut(dir) {
   let tx = 0, ty = 0, rot = 0;
 
   if (dir === 'right') {
-    tx = window.innerWidth + 300; ty = 60;  rot = 25;
+    tx  = window.innerWidth + 300;
+    ty  = 80;
+    rot = 25;
     results.know.push(word);
+
   } else if (dir === 'left') {
-    tx = -(window.innerWidth + 300); ty = 60; rot = -25;
+    tx  = -(window.innerWidth + 300);
+    ty  = 80;
+    rot = -25;
     results.nope.push(word);
+
   } else {
-    tx = 0; ty = -(window.innerHeight + 300); rot = 0;
+    tx  = 0;
+    ty  = -(window.innerHeight + 300);
+    rot = 0;
     results.star.push(word);
   }
 
-  topCard.style.transition = 'transform 0.42s cubic-bezier(0.4,0,0.2,1), opacity 0.42s';
-  topCard.style.transform  = `translate(${tx}px,${ty}px) rotate(${rot}deg)`;
+  topCard.style.transition =
+    'transform 0.42s cubic-bezier(0.4,0,0.2,1), opacity 0.42s';
+  topCard.style.transform  =
+    `translate(${tx}px, ${ty}px) rotate(${rot}deg)`;
   topCard.style.opacity    = '0';
 
   setTimeout(() => {
@@ -330,7 +375,8 @@ function flyOut(dir) {
 // ================================================
 function snapBack() {
   if (!topCard) return;
-  topCard.style.transition = 'transform 0.42s cubic-bezier(0.4,0,0.2,1)';
+  topCard.style.transition =
+    'transform 0.42s cubic-bezier(0.4,0,0.2,1)';
   topCard.style.transform  = 'translate(0,0) rotate(0deg)';
 }
 
@@ -338,26 +384,31 @@ function snapBack() {
 // 도장
 // ================================================
 function showStamp(type, v) {
-  const sc = 0.75 + v * 0.45;
-  const op = Math.min(v * 1.6, 1);
+  const sc = 0.7 + v * 0.5;
+  const op = Math.min(v * 1.8, 1);
 
-  if (type === 'like') {
-    sLike.style.opacity   = op;
-    sLike.style.transform = `translateY(-50%) scale(${sc}) rotate(-18deg)`;
+  if (type === 'know') {
+    sKnow.style.opacity   = op;
+    sKnow.style.transform =
+      `translateY(-50%) scale(${sc}) rotate(-18deg)`;
+
   } else if (type === 'nope') {
     sNope.style.opacity   = op;
-    sNope.style.transform = `translateY(-50%) scale(${sc}) rotate(18deg)`;
+    sNope.style.transform =
+      `translateY(-50%) scale(${sc}) rotate(18deg)`;
+
   } else {
     sStar.style.opacity   = op;
-    sStar.style.transform = `translate(-50%,-50%) scale(${sc})`;
+    sStar.style.transform =
+      `translate(-50%,-50%) scale(${sc})`;
   }
 }
 
 function hideStamps() {
-  sLike.style.opacity = '0';
+  sKnow.style.opacity = '0';
   sNope.style.opacity = '0';
   sStar.style.opacity = '0';
-  sLike.style.transform = 'translateY(-50%) scale(0) rotate(-18deg)';
+  sKnow.style.transform = 'translateY(-50%) scale(0) rotate(-18deg)';
   sNope.style.transform = 'translateY(-50%) scale(0) rotate(18deg)';
   sStar.style.transform = 'translate(-50%,-50%) scale(0)';
 }
@@ -368,65 +419,60 @@ function hideStamps() {
 function updateProg() {
   const total = currentWords.length;
   const done  = Math.min(currentIdx, total);
-  topProg.textContent    = `${Math.min(currentIdx + 1, total)} / ${total}`;
-  progFill.style.width   = `${(done / total) * 100}%`;
+  topProg.textContent  =
+    `${Math.min(currentIdx + 1, total)} / ${total}`;
+  progFill.style.width =
+    `${(done / total) * 100}%`;
 }
 
 // ================================================
-// 결과 화면
+// 결과
 // ================================================
 function showResult() {
-  rcKnow.textContent = results.know.length;
-  rcNope.textContent = results.nope.length;
-  rcStar.textContent = results.star.length;
+  rcKnow.textContent      = results.know.length;
+  rcNope.textContent      = results.nope.length;
+  rcStar.textContent      = results.star.length;
   resultSetname.textContent = currentSetName;
-  progFill.style.width = '100%';
+  progFill.style.width    = '100%';
   showScreen('result');
 }
 
 // ================================================
-// 버튼 이벤트
+// 버튼
 // ================================================
-
-// 하단 X 버튼
 $('btn-nope').addEventListener('click', () => {
   if (!topCard) return;
   showStamp('nope', 1);
   setTimeout(() => { hideStamps(); flyOut('left'); }, 160);
 });
 
-// 하단 ⭐ 버튼
 $('btn-star').addEventListener('click', () => {
   if (!topCard) return;
   showStamp('star', 1);
   setTimeout(() => { hideStamps(); flyOut('up'); }, 160);
 });
 
-// 하단 ❤️ 버튼
 $('btn-know').addEventListener('click', () => {
   if (!topCard) return;
-  showStamp('like', 1);
+  showStamp('know', 1);
   setTimeout(() => { hideStamps(); flyOut('right'); }, 160);
 });
 
-// 뒤로가기
 $('btn-back').addEventListener('click', () => showScreen('home'));
 
-// 틀린 것만 다시
 $('btn-retry').addEventListener('click', () => {
   if (results.nope.length === 0) {
     alert('다시 볼 단어가 없어요!\n모두 완벽하게 외웠네요 🎉');
     return;
   }
-  currentWords   = [...results.nope];
-  currentIdx     = 0;
-  results        = { know: [], nope: [], star: [] };
+  currentWords = [...results.nope];
+  currentIdx   = 0;
+  results      = { know: [], nope: [], star: [] };
   updateProg();
   showScreen('swipe');
   renderCards();
 });
 
-// 홈으로
 $('btn-home').addEventListener('click', () => showScreen('home'));
 
 // ================================================
